@@ -44,9 +44,9 @@ export const MealsScene: React.FC = () => {
                 style={{
                   position: "absolute",
                   left: 20,
-                  top: 40 + i * 52,
+                  top: i * 120 - 40,
                   width: 380,
-                  padding: "20px 26px",
+                  padding: "16px 26px",
                   borderRadius: 14,
                   background: COLORS.paper,
                   color: COLORS.ink,

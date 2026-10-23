@@ -186,7 +186,7 @@ export const SummaryScene: React.FC = () => {
               </div>
             </Reveal>
           ) : null}
-          <div style={{ display: "flex", gap: 20, marginTop: 30 }}>
+          <div style={{ display: "flex", gap: 20, marginTop: 56 }}>
             {[
               { k: "折合", v: `${SELF_HOURS / 24} 天` },
               { k: "平均每天", v: `${(SELF_HOURS / 365).toFixed(1)} 小时` },

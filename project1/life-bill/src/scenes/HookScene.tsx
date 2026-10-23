@@ -78,7 +78,7 @@ export const HookScene: React.FC = () => {
                 style={{
                   width: 660,
                   height: 820,
-                  translate: `0px ${paperLen - 820}px`,
+                  translate: "0px 0px",
                   background: COLORS.paper,
                   padding: "56px 52px",
                   boxSizing: "border-box",

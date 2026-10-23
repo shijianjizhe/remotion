@@ -5,7 +5,7 @@ import { fade } from "@remotion/transitions/fade";
 import { AbsoluteFill, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { FilmFinish } from "./components/Background";
 import { Captions } from "./components/Captions";
-import { sceneDuration as d, SCENES } from "./data/timeline";
+import { SCENE_START, sceneDuration as d, SCENES } from "./data/timeline";
 import { ChoresScene } from "./scenes/ChoresScene";
 import { CommuteScene } from "./scenes/CommuteScene";
 import { FamilyScene } from "./scenes/FamilyScene";
@@ -36,7 +36,7 @@ const Music: React.FC<{ volume: number }> = ({ volume }) => {
     <Audio
       name="BGM"
       src={staticFile("audio/bgm.wav")}
-      volume={volume * interpolate(frame, [0, 10, durationInFrames - 30, durationInFrames], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
+      volume={volume * interpolate(frame, [0, 10, SCENE_START.family - 20, SCENE_START.family + 20, durationInFrames - 30, durationInFrames], [0, 1, 1, 1.45, 1.45, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
     />
   );
 };
