@@ -1,0 +1,21 @@
+{
+  "_comment": "全片时间轴（帧，30fps）。TS 场景编排与 scripts/gen_audio.py 生成 BGM 都读取这里，改时长后请重新运行 npm run audio。transitionAfter = 该场景与下一场景之间的转场重叠帧数。",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    { "id": "hook", "duration": 150, "transitionAfter": 15 },
+    { "id": "total", "duration": 180, "transitionAfter": 15 },
+    { "id": "sleep", "duration": 135, "transitionAfter": 12 },
+    { "id": "work", "duration": 125, "transitionAfter": 12 },
+    { "id": "commute", "duration": 115, "transitionAfter": 12 },
+    { "id": "phone", "duration": 135, "transitionAfter": 12 },
+    { "id": "meals", "duration": 105, "transitionAfter": 12 },
+    { "id": "chores", "duration": 105, "transitionAfter": 18 },
+    { "id": "family", "duration": 185, "transitionAfter": 18 },
+    { "id": "summary", "duration": 270, "transitionAfter": 20 },
+    { "id": "question", "duration": 165, "transitionAfter": 20 },
+    { "id": "interact", "duration": 170, "transitionAfter": 0 }
+  ],
+  "chargeFrame": 38
+}

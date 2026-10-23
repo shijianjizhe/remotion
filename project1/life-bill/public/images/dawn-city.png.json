@@ -1,0 +1,18 @@
+{
+  "image_path": "E:\\remotion\\project1\\life-bill\\public\\images\\dawn-city.png",
+  "prompt": "Cinematic vertical film still, first light of dawn over a quiet city skyline seen from a high window, soft mint-green and pale blue sky gradient near the horizon, city still dark and asleep, a thin bright line of sunrise on the horizon. Minimal, calm, hopeful, low saturation, very dark upper and lower areas with large negative space for text overlay, subtle film grain. No people, no text, no logos, no watermark.",
+  "revised_prompt": "Cinematic vertical film still, first light of dawn over a quiet city skyline seen from a high window, soft mint-green and pale blue sky gradient near the horizon, city still dark and asleep, a thin bright line of sunrise on the horizon. Minimal, calm, hopeful, low saturation, very dark upper and lower areas with large negative space for text overlay, subtle film grain. No people, no text, no logos, no watermark.",
+  "size": "1024x1536",
+  "quality": "high",
+  "format": "png",
+  "is_transparent": false,
+  "input_image": null,
+  "response_id": "resp_0fc0acd2978a46a4016adb358b0ff087d09a52d24f441dc7d3",
+  "ts": "2026-10-23T10:23:43Z",
+  "account_id": "548a8997-5562-44a8-8ba5-dfdd09e2a4b0",
+  "image_model": "gpt-image-2-codex",
+  "resolved_background": "opaque",
+  "transparency_mode": null,
+  "requested_image_model": null,
+  "resolved_quality": "low"
+}

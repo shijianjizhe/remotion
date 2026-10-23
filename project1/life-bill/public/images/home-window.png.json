@@ -1,0 +1,18 @@
+{
+  "image_path": "E:\\remotion\\project1\\life-bill\\public\\images\\home-window.png",
+  "prompt": "Cinematic vertical film still, a small hometown apartment building in a northern Chinese town on a winter night, one single window glowing warm amber light while all other windows are dark, light snow falling, seen from the street far away. Very dark, low saturation, deep navy night with only the warm amber window as accent, large near-black negative space in the lower half for text overlay, subtle film grain, nostalgic and tender. No text, no signs, no logos, no watermark.",
+  "revised_prompt": "Cinematic vertical film still, a small hometown apartment building in a northern Chinese town on a winter night, one single window glowing warm amber light while all other windows are dark, light snow falling, seen from the street far away. Very dark, low saturation, deep navy night with only the warm amber window as accent, large near-black negative space in the lower half for text overlay, subtle film grain, nostalgic and tender. No text, no signs, no logos, no watermark.",
+  "size": "1024x1536",
+  "quality": "high",
+  "format": "png",
+  "is_transparent": false,
+  "input_image": null,
+  "response_id": "resp_0f16204614be2400016adb35dfbba487d0860a5f80afdff0d1",
+  "ts": "2026-10-23T10:25:00Z",
+  "account_id": "548a8997-5562-44a8-8ba5-dfdd09e2a4b0",
+  "image_model": "gpt-image-2-codex",
+  "resolved_background": "opaque",
+  "transparency_mode": null,
+  "requested_image_model": null,
+  "resolved_quality": "medium"
+}

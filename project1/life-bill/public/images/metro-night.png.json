@@ -1,0 +1,18 @@
+{
+  "image_path": "E:\\remotion\\project1\\life-bill\\public\\images\\metro-night.png",
+  "prompt": "Cinematic vertical film still, late night inside an almost empty metro carriage, a lone young office worker seen from behind sitting by the window, phone glow on her face reflected faintly in the dark window, city lights streaking past outside as motion blur. Very dark, low saturation, cool blue-teal grade, deep shadows, large areas of near-black negative space in the upper and lower thirds for text overlay, subtle film grain, anamorphic, melancholic and quiet. No text, no signage letters, no logos, no watermark.",
+  "revised_prompt": "Cinematic vertical film still, late night inside an almost empty metro carriage, a lone young office worker seen from behind sitting by the window, phone glow on her face reflected faintly in the dark window, city lights streaking past outside as motion blur. Very dark, low saturation, cool blue-teal grade, deep shadows, large areas of near-black negative space in the upper and lower thirds for text overlay, subtle film grain, anamorphic, melancholic and quiet. No text, no signage letters, no logos, no watermark.",
+  "size": "1024x1536",
+  "quality": "high",
+  "format": "png",
+  "is_transparent": false,
+  "input_image": null,
+  "response_id": "resp_03ef248c4ab48730016adb35df826c87d0a25ff98d9ebad553",
+  "ts": "2026-10-23T10:25:10Z",
+  "account_id": "548a8997-5562-44a8-8ba5-dfdd09e2a4b0",
+  "image_model": "gpt-image-2-codex",
+  "resolved_background": "opaque",
+  "transparency_mode": null,
+  "requested_image_model": null,
+  "resolved_quality": "medium"
+}
