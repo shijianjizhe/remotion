@@ -8,8 +8,8 @@ import { FALL_HEIGHT, FALL_TIME, RECALL_STRETCH, fallY } from "../simulation/phy
 // 节点 7：Stetson, Fiesta & Eagleman (2007)。31 米自由落体入网（专业设施、安全网）。
 // 左：下落过程（按 y = ½gt² 计算）；右：实际时长 vs 事后回忆时长；
 // 腕上闪烁数字仍然看不清 → 并非视觉分辨率提升。
-const TOP = 230;
-const BOTTOM = 720;
+const TOP = 270;
+const BOTTOM = 740;
 const TX = 400;
 const scaleY = (BOTTOM - TOP) / FALL_HEIGHT;
 const F0 = 40;

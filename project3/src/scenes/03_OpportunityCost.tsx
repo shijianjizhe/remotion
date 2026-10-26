@@ -36,7 +36,7 @@ const pathD = (i: number) => {
 
 /** 第三章天平的位置（供砂粒汇聚目标使用；与 04_PresentBias 保持一致） */
 export const SCALE_PIVOT: Pt = [960, 300];
-export const scaleRise = (f: number) => lerp(620, 0, prog(f, 2060, 2185, easeInOut));
+export const scaleRise = (f: number) => lerp(980, 0, prog(f, 2068, 2188, easeInOut));
 export const leftPanAt = (f: number): Pt => {
   const g = scaleGeom(SCALE_PIVOT[0], SCALE_PIVOT[1] + scaleRise(f), 0);
   return g.left;

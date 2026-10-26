@@ -1,6 +1,6 @@
 # 时间并不均匀 · Time Is Not Uniform
 
-1920×1080 / 30fps / 150 秒 / 无旁白 / 无 BGM（只有音效）的历史科学视觉短片，用 Remotion（React + TypeScript + SVG）制作。
+1920×1080 / 30fps / 142 秒 / 无旁白 / 无 BGM（只有音效）的历史科学视觉短片，用 Remotion（React + TypeScript + SVG）制作。
 
 ## 交付文件
 | 文件 | 说明 |
@@ -30,14 +30,14 @@ npx remotion still TimeIsNotUniform out/qa/x.jpg --frame=1000  # 单帧抽检
 
 ## 常见修改
 - **改片长 / 某一幕的时长**：编辑 `src/config/scenes.json` 里的 `duration`（单位为帧，30 帧 = 1 秒）。总时长和各幕起点会自动重新计算。各幕内部的动画关键帧写在对应的 `src/scenes/*.tsx` 顶部或 `prog(f, a, b)` 调用中。
-- **改屏幕文字**：每一幕的年份、文献注释和结论都写在对应场景文件末尾的 `<DocumentaryYear>`、`<HistoricalAnnotation>`、`<CaptionLine>` 组件里。
-- **改音效**：编辑 `src/config/sfxCues.json`（帧号、音效名、增益、重复次数），然后运行
+- **改屏幕文字**：每一幕的年份、文献注释写在场景文件末尾的 `<DocumentaryYear>`、`<HistoricalAnnotation>` 里；底部接力字幕写在 `<Beats beats={[...]}>` 里（`from`/`to` 为场景内帧号，`【】` 包起来的词显示为金色）。
+- **改音效**：编辑 `src/config/sfxCues.json`（场景、场景内帧号、音效名、增益、重复次数；场景时长改了 cue 会自动跟随），然后运行
   `python scripts/gen_audio.py`，重新生成 `public/sfx/*.wav` 和 `sfx_stem.wav`。
 - **改配色 / 字体**：`src/config/theme.ts`。
 - **改科学参数**（速度、海拔、实验数值）：`src/simulation/physics.ts`。
 
 ## 后期加 BGM
-用剪辑软件导入 `final_sfx_only.mp4`（或无声版 + `sfx_stem.wav`），在上面叠加音乐即可。片尾 02:22–02:30 的音效很稀疏，留给音乐收尾。
+用剪辑软件导入 `final_sfx_only.mp4`（或无声版 + `sfx_stem.wav`），在上面叠加音乐即可。片尾 02:13–02:22 的音效很稀疏，留给音乐收尾。
 
 ## 目录
 ```

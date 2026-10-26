@@ -9,6 +9,7 @@
 | `chimesoft` | `scripts/gen_audio.py` 中的 `s_chimesoft()`，程序合成 | 项目自有，无第三方素材 | 见 docs/sfx-cues.md |
 | `gear` | `scripts/gen_audio.py` 中的 `s_gear()`，程序合成 | 项目自有，无第三方素材 | 见 docs/sfx-cues.md |
 | `heartbeat` | `scripts/gen_audio.py` 中的 `s_heartbeat()`，程序合成 | 项目自有，无第三方素材 | 见 docs/sfx-cues.md |
+| `hit` | `scripts/gen_audio.py` 中的 `s_hit()`，程序合成 | 项目自有，无第三方素材 | 见 docs/sfx-cues.md |
 | `lowpush` | `scripts/gen_audio.py` 中的 `s_lowpush()`，程序合成 | 项目自有，无第三方素材 | 见 docs/sfx-cues.md |
 | `muffle` | `scripts/gen_audio.py` 中的 `s_muffle()`，程序合成 | 项目自有，无第三方素材 | 见 docs/sfx-cues.md |
 | `paper` | `scripts/gen_audio.py` 中的 `s_paper()`，程序合成 | 项目自有，无第三方素材 | 见 docs/sfx-cues.md |
@@ -26,4 +27,5 @@
 | `tick` | `scripts/gen_audio.py` 中的 `s_tick()`，程序合成 | 项目自有，无第三方素材 | 见 docs/sfx-cues.md |
 | `tickhi` | `scripts/gen_audio.py` 中的 `s_tickhi()`，程序合成 | 项目自有，无第三方素材 | 见 docs/sfx-cues.md |
 | `tickstretch` | `scripts/gen_audio.py` 中的 `s_tickstretch()`，程序合成 | 项目自有，无第三方素材 | 见 docs/sfx-cues.md |
+| `whoosh` | `scripts/gen_audio.py` 中的 `s_whoosh()`，程序合成 | 项目自有，无第三方素材 | 见 docs/sfx-cues.md |
 | `wind` | `scripts/gen_audio.py` 中的 `s_wind()`，程序合成 | 项目自有，无第三方素材 | 见 docs/sfx-cues.md |
