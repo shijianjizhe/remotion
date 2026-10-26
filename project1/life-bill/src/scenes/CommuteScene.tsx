@@ -10,7 +10,7 @@ import { COLORS, FONT_STACK, SAFE_X } from "../theme";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const cat = catById("commute");
-const STATIONS = ["张江高科", "龙阳路", "世纪大道", "陆家嘴", "南京东路", "人民广场", "静安寺"];
+const STATIONS = ["南邵", "沙河高教园", "沙河", "巩华城", "朱辛庄", "生命科学园", "西二旗"];
 const GAP = 300;
 
 /** 05 通勤：拥挤车厢的场景插画 + 地铁线路图横向飞驰 + 速度线 */
@@ -38,7 +38,7 @@ export const CommuteScene: React.FC = () => {
       <Camera from={1} to={1.03}>
         <SceneImage src="images/scenes/commute.png" top={430} height={600} focusX={0.5} focusY={0.35} glow={cat.color} driftX={-16} />
         <div style={{ position: "absolute", top: 304, left: SAFE_X }}>
-          <Mono style={{ color: cat.color }}>LINE 02 · 往返 22 站 · 早 08:40 / 晚 21:30</Mono>
+          <Mono style={{ color: cat.color }}>北京昌平线 · 南邵—西二旗 · 早 08:40 / 晚 21:30</Mono>
         </div>
         {/* 线路 */}
         <div style={{ position: "absolute", top: LINE_Y + 2, left: 0, right: 0, height: 6, background: `${cat.color}`, boxShadow: `0 0 20px ${cat.color}`, opacity: draw }} />

@@ -69,7 +69,7 @@ export const CATEGORIES: Category[] = [
     en: "COMMUTE",
     hours: commute,
     formula: "1.5 小时 × 250 天",
-    note: "地铁 2 号线，往返 22 站",
+    note: "北京地铁昌平线，南邵至西二旗",
     punch: "有 15.6 天，在车厢里度过",
     color: "#7FB5FF",
   },
