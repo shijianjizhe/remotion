@@ -1,5 +1,5 @@
 import React from "react";
-import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
+import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { Backdrop, GridLines, Particles } from "../components/Background";
 import { PrinterSlot } from "../components/Illustrations";
 import { Camera, CharReveal, EASE_OUT, Reveal } from "../components/Motion";
@@ -35,11 +35,12 @@ const ReceiptLine: React.FC<{ l: string; r: string; bold?: boolean }> = ({ l, r,
 /** 01 开场钩子：黑暗中亮起一台"人生打印机"，吐出一张年度账单 */
 export const HookScene: React.FC = () => {
   const frame = useCurrentFrame();
+  const { durationInFrames } = useVideoConfig();
   const paperLen = interpolate(frame, [26, 112], [0, 820], { ...clamp, easing: (t) => 1 - Math.pow(1 - t, 2.2) });
   const slotGlow = interpolate(frame, [0, 18], [0, 1], clamp);
   const jitter = frame > 26 && frame < 112 ? Math.sin(frame * 3.1) * 1.2 : 0;
   // 结尾冲进纸面
-  const dive = interpolate(frame, [124, 150], [1, 1.25], { ...clamp, easing: EASE_OUT });
+  const dive = interpolate(frame, [durationInFrames - 26, durationInFrames], [1, 1.25], { ...clamp, easing: EASE_OUT });
 
   return (
     <AbsoluteFill>

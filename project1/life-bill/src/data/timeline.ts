@@ -2,7 +2,7 @@ import timeline from "./timeline.json";
 
 export type SceneId =
   | "hook" | "total" | "sleep" | "work" | "commute" | "phone"
-  | "meals" | "chores" | "family" | "summary" | "question" | "interact";
+  | "meals" | "chores" | "family" | "summary" | "interact";
 
 export const FPS = timeline.fps;
 export const WIDTH = timeline.width;

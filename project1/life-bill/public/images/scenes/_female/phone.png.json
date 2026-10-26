@@ -1,0 +1,18 @@
+{
+  "image_path": "/Users/chendingling/Documents/remotion/remotion/project1/life-bill/public/images/scenes/phone.png",
+  "prompt": "New image: late at night at home, she lies curled on a sofa under a blanket scrolling her phone, the screen's purple-blue glow lighting her face, the room otherwise dark. Muted palette of deep navy with soft violet (#9B8CFF) as the accent glow. Use Image 1 only as the style and character reference: same young Chinese woman (late 20s, shoulder-length black hair), same premium flat vector illustration style with soft grain, gentle gradients, soft rim light and dark near-black surroundings fading out at the edges. Single isolated vignette, three-quarter view, centered, compact composition, landscape. Calm, slightly melancholic, annual-report / Apple keynote illustration feel. No text, no letters, no numbers, no logos, no watermark.",
+  "revised_prompt": "\"\n\"\nNew image: late at night at home, she lies curled on a sofa under a blanket scrolling her phone, the screen's purple-blue glow lighting her face, the room otherwise dark. Muted palette of deep navy with soft violet (#9B8CFF) as the accent glow. Use Image 1 only as the style and character reference: same young Chinese woman (late 20s, shoulder-length black hair), same premium flat vector illustration style with soft grain, gentle gradients, soft rim light and dark near-black surroundings fading out at the edges. Single isolated vignette, three-quarter view, centered, compact composition, landscape. Calm, slightly melancholic, annual-report / Apple keynote illustration feel. No text, no letters, no numbers, no logos, no watermark. Output the isolated subject on a genuinely transparent background with actual alpha.",
+  "size": "1536x1024",
+  "quality": "high",
+  "format": "png",
+  "is_transparent": true,
+  "input_image": "public/images/scenes/sleep.png",
+  "response_id": "resp_072d2883d20f3131016adc2297d0e087d082bbb5669ff5157b",
+  "ts": "2026-10-24T03:15:15Z",
+  "account_id": "548a8997-5562-44a8-8ba5-dfdd09e2a4b0",
+  "image_model": "gpt-image-2-codex",
+  "resolved_background": "transparent",
+  "transparency_mode": "native",
+  "requested_image_model": null,
+  "resolved_quality": "medium"
+}

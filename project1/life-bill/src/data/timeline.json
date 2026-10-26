@@ -4,18 +4,17 @@
   "width": 1080,
   "height": 1920,
   "scenes": [
-    { "id": "hook", "duration": 150, "transitionAfter": 15 },
-    { "id": "total", "duration": 180, "transitionAfter": 15 },
-    { "id": "sleep", "duration": 135, "transitionAfter": 12 },
-    { "id": "work", "duration": 125, "transitionAfter": 12 },
-    { "id": "commute", "duration": 115, "transitionAfter": 12 },
-    { "id": "phone", "duration": 135, "transitionAfter": 12 },
-    { "id": "meals", "duration": 105, "transitionAfter": 12 },
-    { "id": "chores", "duration": 105, "transitionAfter": 18 },
-    { "id": "family", "duration": 185, "transitionAfter": 18 },
-    { "id": "summary", "duration": 270, "transitionAfter": 20 },
-    { "id": "question", "duration": 165, "transitionAfter": 20 },
-    { "id": "interact", "duration": 170, "transitionAfter": 0 }
+    { "id": "hook", "duration": 180, "transitionAfter": 15 },
+    { "id": "total", "duration": 195, "transitionAfter": 15 },
+    { "id": "sleep", "duration": 165, "transitionAfter": 12 },
+    { "id": "work", "duration": 155, "transitionAfter": 12 },
+    { "id": "commute", "duration": 145, "transitionAfter": 12 },
+    { "id": "phone", "duration": 165, "transitionAfter": 12 },
+    { "id": "meals", "duration": 135, "transitionAfter": 12 },
+    { "id": "chores", "duration": 135, "transitionAfter": 18 },
+    { "id": "family", "duration": 215, "transitionAfter": 18 },
+    { "id": "summary", "duration": 300, "transitionAfter": 20 },
+    { "id": "interact", "duration": 200, "transitionAfter": 0 }
   ],
   "chargeFrame": 38
 }

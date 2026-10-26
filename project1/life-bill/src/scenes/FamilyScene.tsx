@@ -11,13 +11,21 @@ import { COLORS, FONT_STACK, SAFE_X } from "../theme";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const cat = catById("family");
-// 2025 年：春节 1/28–2/1（第 28–32 天，0 起算 27–31），中秋 10/6（0 起算 278）
-const HOME_DAYS = new Set([27, 28, 29, 30, 31, 278]);
+// 2025 年（0 起算的第几天）：
+//   春节假期 1/28–2/4 共 8 天，扣掉首尾两天路上 → 在家 1/29–2/3（28–33）
+//   端午 5/31（150），中秋 10/6（278）
+const HOME_LIST = [28, 29, 30, 31, 32, 33, 150, 278];
+const HOME_DAYS = new Set(HOME_LIST);
+/** 依次点亮：春节连续 6 格，停顿一下再亮端午、中秋 */
+const lightAt = (i: number) => {
+  const k = HOME_LIST.indexOf(i);
+  return 18 + k * 3 + (k >= 6 ? 6 : 0);
+};
 const COLS = 21;
 const DOT = 22;
 const GAP = 11;
 
-/** 09 陪家人：情绪转折。整年 365 个格子里，只有 6 格亮起暖光 */
+/** 09 陪家人：情绪转折。整年 365 个格子里，只有 8 格亮起暖光 */
 export const FamilyScene: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -37,12 +45,12 @@ export const FamilyScene: React.FC = () => {
         <div style={{ position: "absolute", top: 380, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", opacity: gridIn }}>
           <div style={{ display: "flex", justifyContent: "space-between", width: COLS * (DOT + GAP) - GAP, marginBottom: 20 }}>
             <Mono>{PERSONA.year} · 365 天</Mono>
-            <Mono style={{ color: cat.color }}>回家 6 天 · 距离 1,100 km</Mono>
+            <Mono style={{ color: cat.color }}>回家 8 天 · 距离 1,100 km</Mono>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: `repeat(${COLS}, ${DOT}px)`, gap: GAP }}>
             {new Array(PERSONA.days).fill(0).map((_, i) => {
               const home = HOME_DAYS.has(i);
-              const on = home ? interpolate(frame, [18 + (i === 278 ? 10 : (i - 27) * 3), 30 + (i === 278 ? 10 : (i - 27) * 3)], [0, 1], clamp) : 0;
+              const on = home ? interpolate(frame, [lightAt(i), lightAt(i) + 12], [0, 1], clamp) : 0;
               return (
                 <div
                   key={i}
@@ -97,7 +105,7 @@ export const FamilyScene: React.FC = () => {
               filter: `blur(${(1 - punch) * 12}px)`,
             }}
           >
-            一年，只有 <span style={{ color: cat.color, textShadow: `0 0 40px ${cat.color}` }}>2 天</span>
+            一年，不到 <span style={{ color: cat.color, textShadow: `0 0 40px ${cat.color}` }}>3 天</span>
           </div>
         </div>
       </Camera>

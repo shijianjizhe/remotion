@@ -1,0 +1,18 @@
+{
+  "image_path": "/Users/chendingling/Documents/remotion/remotion/project1/life-bill/public/images/scenes/sleep.png",
+  "prompt": "Minimal editorial illustration, a single isolated vignette: a young Chinese woman in her late 20s with shoulder-length black hair, asleep on her side in a simple bed with a soft duvet and one pillow, a small bedside table with a phone face-down and a tiny lamp turned off. Style: premium flat vector illustration with soft grain and gentle gradients, muted low-saturation palette of deep navy and slate with cool blue (#4DA3FF) as the accent and soft moonlight rim light, clean shapes, calm and slightly melancholic mood, like an Apple keynote or annual-report illustration. Three-quarter view, centered, compact composition. No text, no letters, no logos, no watermark.",
+  "revised_prompt": "Minimal editorial illustration, a single isolated vignette: a young Chinese woman in her late 20s with shoulder-length black hair, asleep on her side in a simple bed with a soft duvet and one pillow, a small bedside table with a phone face-down and a tiny lamp turned off. Style: premium flat vector illustration with soft grain and gentle gradients, muted low-saturation palette of deep navy and slate with cool blue (#4DA3FF) as the accent and soft moonlight rim light, clean shapes, calm and slightly melancholic mood, like an Apple keynote or annual-report illustration. Three-quarter view, centered, compact composition. No text, no letters, no logos, no watermark. Output the isolated subject on a genuinely transparent background with actual alpha.",
+  "size": "1024x1024",
+  "quality": "high",
+  "format": "png",
+  "is_transparent": true,
+  "input_image": null,
+  "response_id": "resp_03e678c7a1778942016adc221bade887d0aff02f2228bc0d97",
+  "ts": "2026-10-24T03:13:08Z",
+  "account_id": "548a8997-5562-44a8-8ba5-dfdd09e2a4b0",
+  "image_model": "gpt-image-2-codex",
+  "resolved_background": "transparent",
+  "transparency_mode": "native",
+  "requested_image_model": null,
+  "resolved_quality": "medium"
+}

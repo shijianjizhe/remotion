@@ -9,7 +9,7 @@
 export const PERSONA = {
   name: "林夏",
   age: 28,
-  city: "上海",
+  city: "北京",
   job: "互联网产品经理",
   year: 2025,
   days: 365,
@@ -36,70 +36,104 @@ const commute = 1.5 * PERSONA.workDays; // 375
 const phone = 3 * PERSONA.days; // 1095
 const meals = 1.5 * (PERSONA.days - 1) + 2; // 546 + 2 = 548
 const chores = 6 * 50; // 300
-const family = 5 * 8 + 1 * 8; // 48
+// 春节 8 天假，扣掉来回路上各 1 天，在家 6 天；端午、中秋各回家 1 天；在家每天陪家人 8 小时
+const family = (6 + 1 + 1) * 8; // 64
 
 export const CATEGORIES: Category[] = [
   {
-    id: "sleep", index: "01", label: "睡觉", en: "SLEEP", hours: sleep,
+    id: "sleep",
+    index: "01",
+    label: "睡觉",
+    en: "SLEEP",
+    hours: sleep,
     formula: "8 小时 × 365 天",
     note: "每晚 00:30 睡，08:30 起",
     punch: "全年三分之一，在梦里结算",
     color: "#4DA3FF",
   },
   {
-    id: "work", index: "02", label: "上班", en: "WORK", hours: work,
+    id: "work",
+    index: "02",
+    label: "上班",
+    en: "WORK",
+    hours: work,
     formula: "9 小时 × 250 个工作日",
     note: "含加班，不含通勤与午饭",
     punch: "相当于不眠不休工作 94 天",
     color: "#B8C4D6",
   },
   {
-    id: "commute", index: "03", label: "通勤", en: "COMMUTE", hours: commute,
+    id: "commute",
+    index: "03",
+    label: "通勤",
+    en: "COMMUTE",
+    hours: commute,
     formula: "1.5 小时 × 250 天",
     note: "地铁 2 号线，往返 22 站",
     punch: "有 15.6 天，在车厢里度过",
     color: "#7FB5FF",
   },
   {
-    id: "phone", index: "04", label: "刷手机", en: "SCREEN", hours: phone,
+    id: "phone",
+    index: "04",
+    label: "刷手机",
+    en: "SCREEN",
+    hours: phone,
     formula: "3 小时 × 365 天",
     note: "不含通勤和吃饭时刷的",
-    punch: "是陪家人时间的 22.8 倍",
+    punch: `${Math.floor(phone / 24)} 个整天，消失在屏幕里`, // 1095 / 24 = 45.6
     color: "#9B8CFF",
   },
   {
-    id: "meals", index: "05", label: "吃饭", en: "MEALS", hours: meals,
+    id: "meals",
+    index: "05",
+    label: "吃饭",
+    en: "MEALS",
+    hours: meals,
     formula: "1.5 小时 × 364 天 + 年夜饭 2 小时",
     note: "外卖 + 公司楼下",
     punch: "大多数时候，一个人配着视频吃完",
     color: "#FF9F6B",
   },
   {
-    id: "chores", index: "06", label: "琐事", en: "CHORES", hours: chores,
+    id: "chores",
+    index: "06",
+    label: "琐事",
+    en: "CHORES",
+    hours: chores,
     formula: "6 小时 × 50 周",
     note: "家务、采购、排队、办事",
     punch: "生活本身，也要按时缴费",
     color: "#8A93A3",
   },
   {
-    id: "family", index: "07", label: "陪家人", en: "FAMILY", hours: family,
-    formula: "春节 5 天 × 8 小时 + 中秋 1 天 × 8 小时",
+    id: "family",
+    index: "07",
+    label: "陪家人",
+    en: "FAMILY",
+    hours: family,
+    formula: "(春节 6 天 + 端午 1 天 + 中秋 1 天) × 8 小时",
     note: "老家在 1100 公里外",
-    punch: "一年，只有 2 天",
+    punch: "一年，不到 3 天",
     color: "#FFB84D",
   },
 ];
 
-export const SPENT_HOURS = CATEGORIES.reduce((a, c) => a + c.hours, 0); // 7536
-export const SELF_HOURS = YEAR_HOURS - SPENT_HOURS; // 1224
+export const SPENT_HOURS = CATEGORIES.reduce((a, c) => a + c.hours, 0); // 7552
+export const SELF_HOURS = YEAR_HOURS - SPENT_HOURS; // 1208
 export const SELF_COLOR = "#7CFFB2";
 
 export const catById = (id: string) => CATEGORIES.find((c) => c.id === id)!;
 
 // —— 数据校验：分类 + 留给自己 必须严格等于全年 8760 小时 ——
-if (YEAR_HOURS !== 8760 || SPENT_HOURS + SELF_HOURS !== YEAR_HOURS || SELF_HOURS < 0) {
+if (
+  YEAR_HOURS !== 8760 ||
+  SPENT_HOURS + SELF_HOURS !== YEAR_HOURS ||
+  SELF_HOURS < 0
+) {
   throw new Error(`时间账单不平衡: spent=${SPENT_HOURS} self=${SELF_HOURS}`);
 }
 CATEGORIES.forEach((c) => {
-  if (!Number.isInteger(c.hours)) throw new Error(`${c.label} 小时数不是整数: ${c.hours}`);
+  if (!Number.isInteger(c.hours))
+    throw new Error(`${c.label} 小时数不是整数: ${c.hours}`);
 });

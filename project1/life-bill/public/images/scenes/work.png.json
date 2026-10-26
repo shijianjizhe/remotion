@@ -1,0 +1,18 @@
+{
+  "image_path": "/Users/chendingling/Documents/remotion/remotion/project1/life-bill/public/images/scenes/work.png",
+  "prompt": "New image: late evening in an office, he sits at a desk working on a large monitor and a laptop, one hand on the mouse, chin resting on the other hand, tired posture, wearing a casual shirt, a coffee cup and sticky notes, office chair, the monitor glow lights his face. Muted palette of deep slate and cool blue-grey (#B8C4D6) as the accent. Use Image 1 only as the style and character reference: same young Chinese man (late 20s, short neat black hair), same premium flat vector illustration style with soft grain, gentle gradients, soft rim light and dark near-black surroundings fading out at the edges. Single isolated vignette, three-quarter view, centered, compact composition, landscape. Calm, slightly melancholic, annual-report / Apple keynote illustration feel. No text, no letters, no numbers, no logos, no watermark.",
+  "revised_prompt": "```\n[Image 1: provided reference image of a young Chinese man sleeping in bed]\n```\nNew image: late evening in an office, he sits at a desk working on a large monitor and a laptop, one hand on the mouse, chin resting on the other hand, tired posture, wearing a casual shirt, a coffee cup and sticky notes, office chair, the monitor glow lights his face. Muted palette of deep slate and cool blue-grey (#B8C4D6) as the accent. Use Image 1 only as the style and character reference: same young Chinese man (late 20s, short neat black hair), same premium flat vector illustration style with soft grain, gentle gradients, soft rim light and dark near-black surroundings fading out at the edges. Single isolated vignette, three-quarter view, centered, compact composition, landscape. Calm, slightly melancholic, annual-report / Apple keynote illustration feel. No text, no letters, no numbers, no logos, no watermark. Output the isolated subject on a genuinely transparent background with actual alpha.",
+  "size": "1536x1024",
+  "quality": "high",
+  "format": "png",
+  "is_transparent": true,
+  "input_image": "public/images/scenes/sleep.png",
+  "response_id": "resp_0ba2727a165baf9c016adc3c7cea4487d0983eeb9c16425014",
+  "ts": "2026-10-24T05:05:57Z",
+  "account_id": "548a8997-5562-44a8-8ba5-dfdd09e2a4b0",
+  "image_model": "gpt-image-2-codex",
+  "resolved_background": "transparent",
+  "transparency_mode": "native",
+  "requested_image_model": null,
+  "resolved_quality": "medium"
+}

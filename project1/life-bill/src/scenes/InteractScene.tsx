@@ -9,13 +9,15 @@ import { COLORS, FONT_STACK, SAFE_X } from "../theme";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const TAP_AT = 92;
-const TAP_ID = "family";
+/** 互动页演示点中的分类（改这里即可换成别的项） */
+const TAP_ID = "phone";
 
-/** 12 互动页：七个分类变成可"点选"的按钮，手指点中「陪家人」 */
+/** 11 互动页：七个分类变成可"点选"的按钮，手指点中 TAP_ID 对应的分类（默认「刷手机」） */
 export const InteractScene: React.FC = () => {
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
+  const { fps, durationInFrames } = useVideoConfig();
   const tapIdx = CATEGORIES.findIndex((c) => c.id === TAP_ID);
+  const tapCat = CATEGORIES[tapIdx];
   // 手指轨迹：从右下角滑向目标按钮
   const col = tapIdx % 2;
   const row = Math.floor(tapIdx / 2);
@@ -30,11 +32,11 @@ export const InteractScene: React.FC = () => {
   const fy = interpolate(move, [0, 1], [1900, ty]);
   const press = frame >= TAP_AT && frame < TAP_AT + 6 ? 0.85 : 1;
   const ripple = interpolate(frame, [TAP_AT, TAP_AT + 24], [0, 1], clamp);
-  const fade = interpolate(frame, [150, 170], [1, 0], clamp);
+  const fade = interpolate(frame, [durationInFrames - 20, durationInFrames], [1, 0], clamp);
 
   return (
     <AbsoluteFill style={{ opacity: fade }}>
-      <Backdrop color={COLORS.amber} intensity={interpolate(frame, [TAP_AT, TAP_AT + 30], [0.08, 0.2], clamp)} y={50} />
+      <Backdrop color={frame >= TAP_AT ? tapCat.color : COLORS.amber} intensity={interpolate(frame, [TAP_AT, TAP_AT + 30], [0.08, 0.2], clamp)} y={50} />
       <GridLines opacity={0.035} />
       <Sfx name="whoosh" at={0} volume={0.3} />
       <Sfx name="click" at={TAP_AT} volume={0.7} />
@@ -129,7 +131,7 @@ export const InteractScene: React.FC = () => {
       <div style={{ position: "absolute", top: 1340, left: SAFE_X, right: SAFE_X, fontFamily: FONT_STACK, textAlign: "center" }}>
         {frame >= TAP_AT + 12 ? (
           <Reveal delay={TAP_AT + 12} y={20}>
-            <div style={{ fontSize: 50, fontWeight: 700, color: COLORS.amber }}>我选「陪家人」—— 你呢？</div>
+            <div style={{ fontSize: 50, fontWeight: 700, color: tapCat.color }}>我选「{tapCat.label}」—— 你呢？</div>
           </Reveal>
         ) : null}
         <Reveal delay={TAP_AT + 30} y={16} style={{ marginTop: 26 }}>

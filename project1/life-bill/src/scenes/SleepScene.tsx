@@ -2,21 +2,20 @@ import React from "react";
 import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
 import { Backdrop, Particles } from "../components/Background";
 import { BalanceHUD } from "../components/BalanceHUD";
-import { MoonIllo } from "../components/Illustrations";
+import { SceneImage } from "../components/SceneImage";
 import { Camera } from "../components/Motion";
 import { CountTicks, LedgerReadout, Sfx } from "../components/UI";
 import { catById } from "../data/persona";
-import { SAFE_X } from "../theme";
+import { COLORS, FONT_STACK, SAFE_X } from "../theme";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const cat = catById("sleep");
 
-/** 03 睡觉：夜空、月亮、表盘一圈三分之一被涂满 */
+/** 03 睡觉：夜里熟睡的场景插画 + 24h 表盘被涂满三分之一 */
 export const SleepScene: React.FC = () => {
   const frame = useCurrentFrame();
-  const draw = interpolate(frame, [4, 40], [0, 1], clamp);
   const arc = interpolate(frame, [20, 60], [0, 1 / 3], { ...clamp, easing: (t) => 1 - Math.pow(1 - t, 3) });
-  const R = 230;
+  const R = 96;
   const C = 2 * Math.PI * R;
   return (
     <AbsoluteFill>
@@ -26,39 +25,49 @@ export const SleepScene: React.FC = () => {
       <CountTicks start={10} duration={30} every={3} />
       <BalanceHUD catId="sleep" />
       <Camera from={1.04} to={1} driftY={10}>
-        <div style={{ position: "absolute", top: 380, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
-          <div style={{ position: "relative", width: 560, height: 560 }}>
-            <svg width={560} height={560} viewBox="0 0 560 560" style={{ position: "absolute", inset: 0, rotate: "-90deg" }}>
-              <circle cx={280} cy={280} r={R} fill="none" stroke="rgba(245,247,250,0.08)" strokeWidth={18} />
-              <circle
-                cx={280}
-                cy={280}
-                r={R}
-                fill="none"
-                stroke={cat.color}
-                strokeWidth={18}
-                strokeLinecap="round"
-                strokeDasharray={`${arc * C} ${C}`}
-                style={{ filter: `drop-shadow(0 0 16px ${cat.color})` }}
-              />
-              {new Array(24).fill(0).map((_, i) => {
-                const a = (i / 24) * Math.PI * 2;
-                return (
-                  <line
-                    key={i}
-                    x1={280 + Math.cos(a) * 196}
-                    y1={280 + Math.sin(a) * 196}
-                    x2={280 + Math.cos(a) * (i % 6 === 0 ? 176 : 186)}
-                    y2={280 + Math.sin(a) * (i % 6 === 0 ? 176 : 186)}
-                    stroke="rgba(245,247,250,0.3)"
-                    strokeWidth={i % 6 === 0 ? 4 : 2}
-                  />
-                );
-              })}
-            </svg>
-            <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <MoonIllo size={260} color={cat.color} progress={draw} />
-            </div>
+        <SceneImage src="images/scenes/sleep.png" focusX={0.5} focusY={0.55} glow={cat.color} driftX={-12}>
+          {/* 梦呓 Zzz */}
+          {[0, 1, 2].map((i) => {
+            const t = ((frame + i * 22) % 66) / 66;
+            return (
+              <div
+                key={i}
+                style={{
+                  position: "absolute",
+                  left: 740 + t * 90,
+                  top: 150 - t * 150,
+                  fontFamily: FONT_STACK,
+                  fontWeight: 700,
+                  fontSize: 30 + t * 26,
+                  color: cat.color,
+                  opacity: Math.sin(t * Math.PI) * interpolate(frame, [20, 34], [0, 0.9], clamp),
+                  textShadow: `0 0 18px ${cat.color}`,
+                }}
+              >
+                z
+              </div>
+            );
+          })}
+        </SceneImage>
+        {/* 24h 表盘：一天被睡掉三分之一 */}
+        <div style={{ position: "absolute", top: 320, left: 70, width: 220, height: 220, opacity: interpolate(frame, [14, 26], [0, 1], clamp) }}>
+          <svg width={220} height={220} viewBox="0 0 220 220" style={{ position: "absolute", inset: 0, rotate: "-90deg" }}>
+            <circle cx={110} cy={110} r={R} fill="rgba(8,9,12,0.55)" stroke="rgba(245,247,250,0.12)" strokeWidth={10} />
+            <circle
+              cx={110}
+              cy={110}
+              r={R}
+              fill="none"
+              stroke={cat.color}
+              strokeWidth={10}
+              strokeLinecap="round"
+              strokeDasharray={`${arc * C} ${C}`}
+              style={{ filter: `drop-shadow(0 0 10px ${cat.color})` }}
+            />
+          </svg>
+          <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", fontFamily: FONT_STACK }}>
+            <div style={{ fontSize: 52, fontWeight: 800, color: COLORS.text, lineHeight: 1 }}>8h</div>
+            <div style={{ fontSize: 22, color: COLORS.textDim, marginTop: 6 }}>/ 24h 每天</div>
           </div>
         </div>
         <div style={{ position: "absolute", top: 1000, left: SAFE_X }}>

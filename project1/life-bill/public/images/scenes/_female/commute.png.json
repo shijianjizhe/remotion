@@ -1,0 +1,18 @@
+{
+  "image_path": "/Users/chendingling/Documents/remotion/remotion/project1/life-bill/public/images/scenes/commute.png",
+  "prompt": "New image: inside a metro subway carriage at night, she stands holding the overhead handrail among a few other faceless commuters, wearing a light coat with a tote bag, looking out of the dark window with city lights streaking past. Muted palette of deep navy with soft light blue (#7FB5FF) as the accent. Use Image 1 only as the style and character reference: same young Chinese woman (late 20s, shoulder-length black hair), same premium flat vector illustration style with soft grain, gentle gradients, soft rim light and dark near-black surroundings fading out at the edges. Single isolated vignette, three-quarter view, centered, compact composition, landscape. Calm, slightly melancholic, annual-report / Apple keynote illustration feel. No text, no letters, no numbers, no logos, no watermark.",
+  "revised_prompt": "New image: inside a metro subway carriage at night, she stands holding the overhead handrail among a few other faceless commuters, wearing a light coat with a tote bag, looking out of the dark window with city lights streaking past. Muted palette of deep navy with soft light blue (#7FB5FF) as the accent. Use Image 1 only as the style and character reference: same young Chinese woman (late 20s, shoulder-length black hair), same premium flat vector illustration style with soft grain, gentle gradients, soft rim light and dark near-black surroundings fading out at the edges. Single isolated vignette, three-quarter view, centered, compact composition, landscape. Calm, slightly melancholic, annual-report / Apple keynote illustration feel. No text, no letters, no numbers, no logos, no watermark. Output the isolated subject on a genuinely transparent background with actual alpha.",
+  "size": "1536x1024",
+  "quality": "high",
+  "format": "png",
+  "is_transparent": true,
+  "input_image": "public/images/scenes/sleep.png",
+  "response_id": "resp_04caaebca57bd1f8016adc227cf48487d084c5ac31b184cfea",
+  "ts": "2026-10-24T03:14:50Z",
+  "account_id": "548a8997-5562-44a8-8ba5-dfdd09e2a4b0",
+  "image_model": "gpt-image-2-codex",
+  "resolved_background": "transparent",
+  "transparency_mode": "native",
+  "requested_image_model": null,
+  "resolved_quality": "medium"
+}

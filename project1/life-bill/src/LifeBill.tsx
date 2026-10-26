@@ -13,7 +13,6 @@ import { HookScene } from "./scenes/HookScene";
 import { InteractScene } from "./scenes/InteractScene";
 import { MealsScene } from "./scenes/MealsScene";
 import { PhoneScene } from "./scenes/PhoneScene";
-import { QuestionScene } from "./scenes/QuestionScene";
 import { SleepScene } from "./scenes/SleepScene";
 import { SummaryScene } from "./scenes/SummaryScene";
 import { TotalScene } from "./scenes/TotalScene";
@@ -95,12 +94,7 @@ export const LifeBill: React.FC<LifeBillProps> = ({ showCaptions, musicVolume })
         </TransitionSeries.Sequence>
         <TransitionSeries.Transition presentation={fade()} timing={springTiming({ config: { damping: 200 }, durationInFrames: t("summary") })} />
 
-        <TransitionSeries.Sequence name="11 结尾提问" durationInFrames={d("question")}>
-          <QuestionScene />
-        </TransitionSeries.Sequence>
-        <TransitionSeries.Transition presentation={blurZoom()} timing={linearTiming({ durationInFrames: t("question") })} />
-
-        <TransitionSeries.Sequence name="12 互动" durationInFrames={d("interact")}>
+        <TransitionSeries.Sequence name="11 互动" durationInFrames={d("interact")}>
           <InteractScene />
         </TransitionSeries.Sequence>
       </TransitionSeries>

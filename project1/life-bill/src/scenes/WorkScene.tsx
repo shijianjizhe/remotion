@@ -1,22 +1,20 @@
 import React from "react";
-import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { Backdrop, GridLines } from "../components/Background";
 import { BalanceHUD } from "../components/BalanceHUD";
-import { MonitorIllo } from "../components/Illustrations";
+import { SceneImage } from "../components/SceneImage";
 import { Camera } from "../components/Motion";
 import { CountTicks, LedgerReadout, Mono, Sfx } from "../components/UI";
 import { catById } from "../data/persona";
 import { COLORS, FONT_STACK, SAFE_X } from "../theme";
 
-const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const cat = catById("work");
 const PUNCHES = ["09:58 上班打卡", "12:00 午休", "13:00 回到工位", "19:30 需求评审", "21:12 下班打卡"];
 
-/** 04 上班：显示器 + 一列打卡记录像小票一样被快速打出 */
+/** 04 上班：深夜工位的场景插画 + 一列打卡记录快速弹出 */
 export const WorkScene: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const draw = interpolate(frame, [2, 34], [0, 1], clamp);
   return (
     <AbsoluteFill>
       <Backdrop color={cat.color} intensity={0.14} x={70} y={34} />
@@ -28,10 +26,8 @@ export const WorkScene: React.FC = () => {
       ))}
       <BalanceHUD catId="work" />
       <Camera from={1} to={1.05} driftX={-14}>
-        <div style={{ position: "absolute", top: 400, left: SAFE_X }}>
-          <MonitorIllo size={340} color={cat.color} progress={draw} />
-        </div>
-        <div style={{ position: "absolute", top: 410, right: SAFE_X, width: 470, display: "flex", flexDirection: "column", gap: 14 }}>
+        <SceneImage src="images/scenes/work.png" focusX={0.45} glow={cat.color} driftX={10} />
+        <div style={{ position: "absolute", top: 340, right: 60, width: 330, display: "flex", flexDirection: "column", gap: 10 }}>
           {PUNCHES.map((p, i) => {
             const s = spring({ frame: frame - 12 - i * 6, fps, config: { damping: 16, stiffness: 200 } });
             const last = i === PUNCHES.length - 1;
@@ -41,12 +37,13 @@ export const WorkScene: React.FC = () => {
                 style={{
                   opacity: s,
                   translate: `${(1 - s) * 80}px 0px`,
-                  padding: "14px 22px",
-                  borderRadius: 16,
-                  background: last ? `${COLORS.red}1c` : "rgba(255,255,255,0.05)",
+                  padding: "10px 18px",
+                  borderRadius: 14,
+                  background: last ? "rgba(60,20,24,0.78)" : "rgba(14,16,22,0.72)",
+                  backdropFilter: "blur(10px)",
                   border: `1.5px solid ${last ? COLORS.red + "66" : "rgba(255,255,255,0.08)"}`,
                   fontFamily: FONT_STACK,
-                  fontSize: 30,
+                  fontSize: 26,
                   color: last ? COLORS.red : COLORS.text,
                   fontWeight: last ? 700 : 400,
                   fontVariantNumeric: "tabular-nums",
@@ -56,7 +53,7 @@ export const WorkScene: React.FC = () => {
               </div>
             );
           })}
-          <Mono style={{ marginTop: 8, textAlign: "right" }}>× 250 个工作日</Mono>
+          <Mono style={{ marginTop: 6, textAlign: "right", color: COLORS.text, textShadow: "0 2px 10px rgba(0,0,0,0.95)" }}>× 250 个工作日</Mono>
         </div>
         <div style={{ position: "absolute", top: 1000, left: SAFE_X }}>
           <LedgerReadout cat={cat} start={8} numberSize={200} />

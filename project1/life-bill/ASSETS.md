@@ -6,11 +6,12 @@
 | --- | --- | --- | --- |
 | 背景音乐 | `public/audio/bgm.wav` | `scripts/gen_audio.py` 程序合成（原创，不含任何采样） | 项目自有 |
 | 14 个音效：tick / click / whoosh / swipe / fill / page / printer / stamp / notify / boom / charge / riser / tear / shimmer | `public/audio/sfx/*.wav` | 同上，程序合成 | 项目自有 |
-| 深夜地铁照片 | `public/images/metro-night.png` | codex-image skill（GPT Image，经用户 ChatGPT Plus 账号）AI 生成 | 按 OpenAI 使用条款，生成内容归用户所有 |
+| 六张分类场景插画（睡觉/上班/通勤/刷手机/吃饭/琐事），同一男性人物、同一画风；上一版女性人物备份在 `public/images/scenes/_female/` | `public/images/scenes/*.png` | codex-image skill（GPT Image）AI 生成；后五张以睡觉图为人物与风格参考 | 按 OpenAI 使用条款，生成内容归用户所有 |
+| 深夜地铁照片（当前版本未使用，保留备用） | `public/images/metro-night.png` | codex-image skill（GPT Image，经用户 ChatGPT Plus 账号）AI 生成 | 按 OpenAI 使用条款，生成内容归用户所有 |
 | 老家灯窗照片 | `public/images/home-window.png` | 同上 | 同上 |
-| 黎明城市照片 | `public/images/dawn-city.png` | 同上 | 同上 |
+| 黎明城市照片（原结尾提问页用，该页已删除，当前未使用） | `public/images/dawn-city.png` | 同上 | 同上 |
 | 生成参数记录 | `public/images/*.png.json` | codex-image 自动生成的 sidecar（含 prompt） | — |
-| 全部图标 / 线条插画 | `src/components/Illustrations.tsx` | 手写 SVG 代码 | 项目自有 |
+| 其余图标 / 线条插画 | `src/components/Illustrations.tsx` | 手写 SVG 代码 | 项目自有 |
 | 字体 Noto Sans SC（思源黑体同源） | `public/fonts/NotoSansSC-VF.ttf` | Google / Adobe | SIL Open Font License 1.1，可商用、可嵌入 |
 
 ## 缺失项（需要说明）

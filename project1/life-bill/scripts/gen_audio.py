@@ -242,14 +242,8 @@ def build_bgm():
     for dt, n in [(0, 57), (0, 64), (0, 69), (0.02, 72), (0.04, 76)]:
         place(mel, piano(midi(n), 4.5, 0.7), reveal + dt, 0.45)
     place(drums, lp(kick(1.2), 120), reveal, 0.9)
-    place(pads, pad([midi(n) for n in (48, 55, 60, 64, 67)], sec("question") - reveal + 2.0, 1600, 0.3, 2.0), reveal, 0.24)
-
-    # 结尾提问：ambient + 稀疏钢琴
-    q = sec("question")
     it = sec("interact")
-    place(pads, pad([midi(n) for n in (41, 53, 57, 60, 64)], it - q + 2.0, 800, 2.0, 2.0), q, 0.26)
-    for dt, n in [(0.3, 76), (2.2, 74), (2.5, 72), (4.3, 69)]:
-        place(mel, piano(midi(n), 3.5, 0.45), q + dt, 0.45, pan=-0.1)
+    place(pads, pad([midi(n) for n in (48, 55, 60, 64, 67)], it - reveal + 2.0, 1600, 0.3, 2.0), reveal, 0.24)
 
     # 互动：轻柔琶音回归，C 大调收在明亮的位置
     for i in range(int((TOTAL - it) / (beat / 2))):
