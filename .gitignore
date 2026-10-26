@@ -6,3 +6,10 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+# 渲染输出目录（project-dsh 用的是 output 不是 out）
+output/
+
+# 忽略所有 mp4，参考视频素材除外
+*.mp4
+!infomation/参考视频/*.mp4

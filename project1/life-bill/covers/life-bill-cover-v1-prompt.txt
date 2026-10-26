@@ -1,0 +1,9 @@
+Generated using the built-in image_gen tool.
+
+Use case: ads-marketing
+Asset type: finished Chinese short-video cover, portrait 9:16, high-resolution 1080x1920 or equivalent ratio.
+Primary request: Create a striking premium cover for a cinematic video about an ordinary Beijing office worker's annual time budget. The video is called 年度人生账单. Theme: 8760 hours per year, how much is left for yourself? Make a complete finished cover with exceptionally crisp accurate Chinese typography.
+Style: sophisticated cinematic editorial poster, near-black/navy background, electric ice blue glow, warm ivory receipt paper, restrained orange accent. Rich tactile paper, subtle grain, beautiful volumetric light. NOT a dashboard, not a powerpoint, not a collage of cards.
+Composition: huge bold editorial title in upper-middle area, central dramatically curling long receipt emerging from a dark receipt printer, luminous fragments of time dissolving into particles at the bottom. A subtle clock arc behind paper, understated Beijing night city silhouettes far in background. No people necessary. Tight powerful visual hierarchy readable as a mobile thumbnail. Main content inside central 80% width and 75% height for cropping safety; top/bottom breathing room; no platform buttons or UI.
+Exact text: small top kicker "年度人生账单"; very large main title in two lines "一年 8760 小时" and "你还剩多少？". First line ivory, second blue with orange emphasis on "多少". Receipt shows only three simple clear rows: "睡觉 2920h", "上班 2250h", "留给自己 ?". Bottom small tagline "时间，都花在哪了".
+Keep all Chinese characters correct and legible, no extra text, no watermarks, no logos. Powerful restrained design with generous negative space, polished final publishing asset.

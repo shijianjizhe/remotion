@@ -1,0 +1,30 @@
+{
+  "name": "invisible-cost",
+  "version": "1.0.0",
+  "description": "看不见的代价 — Remotion 黑金历史纪录片短片",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "check": "tsc && node scripts/validate-shots.mjs",
+    "assets": "node scripts/gen-textures.mjs",
+    "sfx": "node scripts/gen-sfx.mjs && node scripts/mix-sfx.mjs",
+    "proof": "node scripts/render-proof.mjs",
+    "render": "node scripts/render-all.mjs",
+    "qa": "node scripts/qa.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "@remotion/fonts": "4.0.538",
+    "@remotion/media": "4.0.538",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.538"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "sharp": "0.34.4",
+    "typescript": "5.9.3"
+  }
+}

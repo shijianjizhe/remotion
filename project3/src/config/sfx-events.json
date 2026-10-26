@@ -1,0 +1,1152 @@
+[
+ {
+  "file": "room_air.wav",
+  "startFrame": 0,
+  "durationFrames": 240,
+  "volume": 0.55,
+  "fadeInFrames": 40,
+  "fadeOutFrames": 50,
+  "pan": 0,
+  "note": "S01 房间空气 + 远处机械低鸣"
+ },
+ {
+  "file": "wind_soft.wav",
+  "startFrame": 6,
+  "durationFrames": 180,
+  "volume": 0.22,
+  "fadeInFrames": 40,
+  "fadeOutFrames": 40,
+  "pan": 0,
+  "note": "S01 轻风"
+ },
+ {
+  "file": "glass_impact.wav",
+  "startFrame": 132,
+  "durationFrames": 138,
+  "volume": 1,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S02 玻璃碎裂"
+ },
+ {
+  "file": "low_thump.wav",
+  "startFrame": 132,
+  "durationFrames": 135,
+  "volume": 0.4,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S02 极轻低频尾响"
+ },
+ {
+  "file": "glass_tail.wav",
+  "startFrame": 150,
+  "durationFrames": 150,
+  "volume": 0.45,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 30,
+  "pan": 0,
+  "note": "S02 碎片细尾音"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 180,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "glass_tail.wav",
+  "startFrame": 252,
+  "durationFrames": 150,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 30,
+  "pan": 0.2,
+  "note": "S03 碎片化尘"
+ },
+ {
+  "file": "coin_tap.wav",
+  "startFrame": 286,
+  "durationFrames": 45,
+  "volume": 0.42,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S03 金币成形 1/6"
+ },
+ {
+  "file": "coin_tap_b.wav",
+  "startFrame": 290,
+  "durationFrames": 45,
+  "volume": 0.42,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.4,
+  "note": "S03 金币成形 2/6"
+ },
+ {
+  "file": "coin_tap.wav",
+  "startFrame": 294,
+  "durationFrames": 45,
+  "volume": 0.42,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.4,
+  "note": "S03 金币成形 3/6"
+ },
+ {
+  "file": "coin_tap_b.wav",
+  "startFrame": 298,
+  "durationFrames": 45,
+  "volume": 0.42,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S03 金币成形 4/6"
+ },
+ {
+  "file": "coin_tap.wav",
+  "startFrame": 302,
+  "durationFrames": 45,
+  "volume": 0.42,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.4,
+  "note": "S03 金币成形 5/6"
+ },
+ {
+  "file": "coin_tap_b.wav",
+  "startFrame": 306,
+  "durationFrames": 45,
+  "volume": 0.42,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.4,
+  "note": "S03 金币成形 6/6"
+ },
+ {
+  "file": "coin_chime.wav",
+  "startFrame": 318,
+  "durationFrames": 144,
+  "volume": 0.45,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S03 中心金币轻鸣"
+ },
+ {
+  "file": "title_swell.wav",
+  "startFrame": 360,
+  "durationFrames": 165,
+  "volume": 0.6,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 20,
+  "pan": 0,
+  "note": "S04 片名低频重音"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 380,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "paper_rustle.wav",
+  "startFrame": 392,
+  "durationFrames": 69,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S04 纸张摩擦"
+ },
+ {
+  "file": "page_turn.wav",
+  "startFrame": 458,
+  "durationFrames": 57,
+  "volume": 0.5,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S05 羊皮纸旋开"
+ },
+ {
+  "file": "paper_rustle.wav",
+  "startFrame": 474,
+  "durationFrames": 69,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": ""
+ },
+ {
+  "file": "engrave.wav",
+  "startFrame": 478,
+  "durationFrames": 66,
+  "volume": 0.35,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S05 薄金属刻字（年份）"
+ },
+ {
+  "file": "pencil_draw.wav",
+  "startFrame": 576,
+  "durationFrames": 72,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S06 线描出现"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 580,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 600,
+  "durationFrames": 240,
+  "volume": 0.25,
+  "fadeInFrames": 30,
+  "fadeOutFrames": 40,
+  "pan": 0,
+  "note": ""
+ },
+ {
+  "file": "coin_tap.wav",
+  "startFrame": 664,
+  "durationFrames": 45,
+  "volume": 0.4,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.1,
+  "note": "S06 金币叩击 1/6"
+ },
+ {
+  "file": "coin_tap_b.wav",
+  "startFrame": 673,
+  "durationFrames": 45,
+  "volume": 0.4,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.05,
+  "note": "S06 金币叩击 2/6"
+ },
+ {
+  "file": "coin_tap.wav",
+  "startFrame": 682,
+  "durationFrames": 45,
+  "volume": 0.4,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S06 金币叩击 3/6"
+ },
+ {
+  "file": "coin_tap_b.wav",
+  "startFrame": 691,
+  "durationFrames": 45,
+  "volume": 0.4,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.05000000000000002,
+  "note": "S06 金币叩击 4/6"
+ },
+ {
+  "file": "coin_tap.wav",
+  "startFrame": 700,
+  "durationFrames": 45,
+  "volume": 0.4,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.1,
+  "note": "S06 金币叩击 5/6"
+ },
+ {
+  "file": "glass_restore.wav",
+  "startFrame": 700,
+  "durationFrames": 84,
+  "volume": 0.35,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S06 玻璃复原"
+ },
+ {
+  "file": "coin_tap_b.wav",
+  "startFrame": 709,
+  "durationFrames": 45,
+  "volume": 0.4,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.15,
+  "note": "S06 金币叩击 6/6"
+ },
+ {
+  "file": "paper_rustle.wav",
+  "startFrame": 724,
+  "durationFrames": 69,
+  "volume": 0.32,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S07 移动划纸"
+ },
+ {
+  "file": "coin_tap_b.wav",
+  "startFrame": 772,
+  "durationFrames": 45,
+  "volume": 0.22,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S07 轻金属触碰"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 780,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "ash_disperse.wav",
+  "startFrame": 904,
+  "durationFrames": 150,
+  "volume": 0.5,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.35,
+  "note": "S08 灰烬散逸"
+ },
+ {
+  "file": "fade_whoosh.wav",
+  "startFrame": 910,
+  "durationFrames": 138,
+  "volume": 0.22,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.35,
+  "note": "S08 尾音渐弱"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 980,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "ledger_drop.wav",
+  "startFrame": 1028,
+  "durationFrames": 54,
+  "volume": 0.5,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.3,
+  "note": "S09 账页落下"
+ },
+ {
+  "file": "ledger_drop.wav",
+  "startFrame": 1036,
+  "durationFrames": 54,
+  "volume": 0.45,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.3,
+  "note": ""
+ },
+ {
+  "file": "ink_dot.wav",
+  "startFrame": 1062,
+  "durationFrames": 33,
+  "volume": 0.35,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.3,
+  "note": "S09 点墨"
+ },
+ {
+  "file": "ink_dot.wav",
+  "startFrame": 1076,
+  "durationFrames": 33,
+  "volume": 0.35,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.3,
+  "note": "S09 点墨"
+ },
+ {
+  "file": "ink_dot.wav",
+  "startFrame": 1092,
+  "durationFrames": 33,
+  "volume": 0.35,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.3,
+  "note": "S09 点墨"
+ },
+ {
+  "file": "ink_dot.wav",
+  "startFrame": 1106,
+  "durationFrames": 33,
+  "volume": 0.35,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.3,
+  "note": "S09 点墨"
+ },
+ {
+  "file": "ink_dot.wav",
+  "startFrame": 1124,
+  "durationFrames": 33,
+  "volume": 0.35,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.3,
+  "note": "S09 点墨"
+ },
+ {
+  "file": "ink_dot.wav",
+  "startFrame": 1138,
+  "durationFrames": 33,
+  "volume": 0.35,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.3,
+  "note": "S09 点墨"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 1180,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "book_close.wav",
+  "startFrame": 1206,
+  "durationFrames": 78,
+  "volume": 0.55,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S10 账簿合拢"
+ },
+ {
+  "file": "coin_chime.wav",
+  "startFrame": 1222,
+  "durationFrames": 144,
+  "volume": 0.35,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S10 金币显现"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 1290,
+  "durationFrames": 240,
+  "volume": 0.22,
+  "fadeInFrames": 30,
+  "fadeOutFrames": 60,
+  "pan": 0,
+  "note": ""
+ },
+ {
+  "file": "coin_tap.wav",
+  "startFrame": 1316,
+  "durationFrames": 45,
+  "volume": 0.45,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.3,
+  "note": "S11 金币落在路口"
+ },
+ {
+  "file": "low_thump.wav",
+  "startFrame": 1316,
+  "durationFrames": 135,
+  "volume": 0.18,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": ""
+ },
+ {
+  "file": "line_light.wav",
+  "startFrame": 1328,
+  "durationFrames": 87,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.2,
+  "note": "S11 细线依次点亮"
+ },
+ {
+  "file": "line_light.wav",
+  "startFrame": 1343,
+  "durationFrames": 87,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.30000000000000004,
+  "note": "S11 细线依次点亮"
+ },
+ {
+  "file": "line_light.wav",
+  "startFrame": 1358,
+  "durationFrames": 87,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.4,
+  "note": "S11 细线依次点亮"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 1380,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "coin_chime.wav",
+  "startFrame": 1444,
+  "durationFrames": 144,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.3,
+  "note": "S12 金币旋转"
+ },
+ {
+  "file": "clock_ticks.wav",
+  "startFrame": 1470,
+  "durationFrames": 174,
+  "volume": 0.42,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.3,
+  "note": "S12 钟摆滴答"
+ },
+ {
+  "file": "engrave.wav",
+  "startFrame": 1490,
+  "durationFrames": 66,
+  "volume": 0.22,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.3,
+  "note": "S12 纸面刻图"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 1580,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "line_light.wav",
+  "startFrame": 1626,
+  "durationFrames": 87,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S13 选择脉冲"
+ },
+ {
+  "file": "lock_on.wav",
+  "startFrame": 1664,
+  "durationFrames": 72,
+  "volume": 0.45,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.3,
+  "note": "S13 轨道锁定"
+ },
+ {
+  "file": "fade_whoosh.wav",
+  "startFrame": 1672,
+  "durationFrames": 138,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.3,
+  "note": "S13 远路消散"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 1780,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "focus_ping.wav",
+  "startFrame": 1792,
+  "durationFrames": 90,
+  "volume": 0.38,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.3,
+  "note": "S14 焦点切换"
+ },
+ {
+  "file": "line_light.wav",
+  "startFrame": 1958,
+  "durationFrames": 87,
+  "volume": 0.22,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.4,
+  "note": "S15 选中路线前行"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 1980,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "sand_flow.wav",
+  "startFrame": 1996,
+  "durationFrames": 162,
+  "volume": 0.5,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S15 砂粒流"
+ },
+ {
+  "file": "scale_clink.wav",
+  "startFrame": 2108,
+  "durationFrames": 84,
+  "volume": 0.32,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S15 天平轻响"
+ },
+ {
+  "file": "chain_gear.wav",
+  "startFrame": 2166,
+  "durationFrames": 120,
+  "volume": 0.45,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S16 天平链条、细齿轮"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 2180,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "scale_clink.wav",
+  "startFrame": 2196,
+  "durationFrames": 84,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.3,
+  "note": ""
+ },
+ {
+  "file": "scale_clink.wav",
+  "startFrame": 2206,
+  "durationFrames": 84,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.3,
+  "note": ""
+ },
+ {
+  "file": "breath_low.wav",
+  "startFrame": 2330,
+  "durationFrames": 147,
+  "volume": 0.45,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S17 轻呼吸低频"
+ },
+ {
+  "file": "coin_bright.wav",
+  "startFrame": 2362,
+  "durationFrames": 84,
+  "volume": 0.32,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.35,
+  "note": "S17 即时金币亮音"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 2380,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "dial_wheel.wav",
+  "startFrame": 2496,
+  "durationFrames": 108,
+  "volume": 0.42,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S18 时间拨轮"
+ },
+ {
+  "file": "chain_gear.wav",
+  "startFrame": 2575,
+  "durationFrames": 120,
+  "volume": 0.22,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S18 金属转轴"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 2580,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "focus_short.wav",
+  "startFrame": 2702,
+  "durationFrames": 66,
+  "volume": 0.42,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.35,
+  "note": "S19 短促聚焦"
+ },
+ {
+  "file": "echo_far.wav",
+  "startFrame": 2716,
+  "durationFrames": 135,
+  "volume": 0.32,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.35,
+  "note": "S19 远近回响"
+ },
+ {
+  "file": "scale_hum.wav",
+  "startFrame": 2776,
+  "durationFrames": 153,
+  "volume": 0.25,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S19 天平停摆"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 2780,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "ticket_fold.wav",
+  "startFrame": 2880,
+  "durationFrames": 51,
+  "volume": 0.42,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S20 票纸翻折"
+ },
+ {
+  "file": "paper_rustle.wav",
+  "startFrame": 2928,
+  "durationFrames": 69,
+  "volume": 0.28,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S20 纸纤维摩擦"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 2980,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "theater_room.wav",
+  "startFrame": 2985,
+  "durationFrames": 264,
+  "volume": 0.32,
+  "fadeInFrames": 40,
+  "fadeOutFrames": 60,
+  "pan": 0,
+  "note": "S21 旧剧院环境"
+ },
+ {
+  "file": "ticket_tear.wav",
+  "startFrame": 3044,
+  "durationFrames": 39,
+  "volume": 0.4,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S21 票券撕口"
+ },
+ {
+  "file": "door_creak.wav",
+  "startFrame": 3122,
+  "durationFrames": 117,
+  "volume": 0.28,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.2,
+  "note": "S22 剧院门轴"
+ },
+ {
+  "file": "theater_room.wav",
+  "startFrame": 3135,
+  "durationFrames": 264,
+  "volume": 0.3,
+  "fadeInFrames": 30,
+  "fadeOutFrames": 50,
+  "pan": 0,
+  "note": "S22 压低的人群环境（无语义）"
+ },
+ {
+  "file": "ticket_tear.wav",
+  "startFrame": 3146,
+  "durationFrames": 39,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.2,
+  "note": "S22 第 1 场翻票"
+ },
+ {
+  "file": "ticket_tear.wav",
+  "startFrame": 3180,
+  "durationFrames": 39,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.1,
+  "note": "S22 第 2 场翻票"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 3180,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "ticket_tear.wav",
+  "startFrame": 3214,
+  "durationFrames": 39,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S22 第 3 场翻票"
+ },
+ {
+  "file": "ticket_tear.wav",
+  "startFrame": 3248,
+  "durationFrames": 39,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.10000000000000003,
+  "note": "S22 第 4 场翻票"
+ },
+ {
+  "file": "ticket_tear.wav",
+  "startFrame": 3282,
+  "durationFrames": 39,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.2,
+  "note": "S22 第 5 场翻票"
+ },
+ {
+  "file": "ledger_drop.wav",
+  "startFrame": 3306,
+  "durationFrames": 54,
+  "volume": 0.45,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S23 账页"
+ },
+ {
+  "file": "stamp.wav",
+  "startFrame": 3372,
+  "durationFrames": 48,
+  "volume": 0.6,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.3,
+  "note": "S23 账页盖章"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 3380,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "lock_drop.wav",
+  "startFrame": 3402,
+  "durationFrames": 63,
+  "volume": 0.48,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": -0.3,
+  "note": "S23 铜锁落下"
+ },
+ {
+  "file": "door_creak.wav",
+  "startFrame": 3486,
+  "durationFrames": 117,
+  "volume": 0.38,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S24 低沉门轴"
+ },
+ {
+  "file": "wind_soft.wav",
+  "startFrame": 3500,
+  "durationFrames": 180,
+  "volume": 0.32,
+  "fadeInFrames": 20,
+  "fadeOutFrames": 40,
+  "pan": 0,
+  "note": "S24 两路轻风"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 3580,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "scale_hum.wav",
+  "startFrame": 3636,
+  "durationFrames": 153,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S25 天平低鸣"
+ },
+ {
+  "file": "sand_fall.wav",
+  "startFrame": 3650,
+  "durationFrames": 132,
+  "volume": 0.42,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S25 沙落"
+ },
+ {
+  "file": "glass_tail.wav",
+  "startFrame": 3756,
+  "durationFrames": 150,
+  "volume": 0.16,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 20,
+  "pan": 0,
+  "note": "S26 前文音效淡淡重现"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 3780,
+  "durationFrames": 240,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "clock_ticks.wav",
+  "startFrame": 3785,
+  "durationFrames": 40,
+  "volume": 0.14,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 15,
+  "pan": 0,
+  "note": ""
+ },
+ {
+  "file": "coin_tap.wav",
+  "startFrame": 3812,
+  "durationFrames": 45,
+  "volume": 0.15,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": ""
+ },
+ {
+  "file": "page_turn.wav",
+  "startFrame": 3840,
+  "durationFrames": 57,
+  "volume": 0.14,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": ""
+ },
+ {
+  "file": "fade_whoosh.wav",
+  "startFrame": 3862,
+  "durationFrames": 138,
+  "volume": 0.2,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S26 逐渐远去"
+ },
+ {
+  "file": "sand_flow.wav",
+  "startFrame": 3900,
+  "durationFrames": 162,
+  "volume": 0.3,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 30,
+  "pan": 0,
+  "note": "S27 细粒回收"
+ },
+ {
+  "file": "coin_low.wav",
+  "startFrame": 3962,
+  "durationFrames": 186,
+  "volume": 0.55,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S27 单次金币低鸣"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 3980,
+  "durationFrames": 215,
+  "volume": 0.2,
+  "fadeInFrames": 40,
+  "fadeOutFrames": 60,
+  "pan": 0,
+  "note": "S28 声尾留白"
+ },
+ {
+  "file": "room_air.wav",
+  "startFrame": 3980,
+  "durationFrames": 220,
+  "volume": 0.16,
+  "fadeInFrames": 45,
+  "fadeOutFrames": 45,
+  "pan": 0,
+  "note": "环境底噪 bed"
+ },
+ {
+  "file": "line_light.wav",
+  "startFrame": 3992,
+  "durationFrames": 87,
+  "volume": 0.16,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0.3,
+  "note": "S27 第二条路亮一下"
+ },
+ {
+  "file": "paper_close.wav",
+  "startFrame": 4080,
+  "durationFrames": 81,
+  "volume": 0.32,
+  "fadeInFrames": 0,
+  "fadeOutFrames": 6,
+  "pan": 0,
+  "note": "S28 纸张收拢"
+ }
+]

@@ -1,0 +1,16 @@
+{
+  "fps": 30,
+  "scenes": [
+    { "id": "opening", "duration": 270 },
+    { "id": "newton", "duration": 330 },
+    { "id": "special", "duration": 510 },
+    { "id": "general", "duration": 450 },
+    { "id": "atomic", "duration": 510 },
+    { "id": "gps", "duration": 450 },
+    { "id": "eye", "duration": 120 },
+    { "id": "chronostasis", "duration": 420 },
+    { "id": "freefall", "duration": 420 },
+    { "id": "memory", "duration": 510 },
+    { "id": "ending", "duration": 270 }
+  ]
+}

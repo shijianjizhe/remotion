@@ -1,0 +1,26 @@
+{
+  "name": "invisible-cost",
+  "version": "1.0.0",
+  "description": "看不见的代价 — Remotion documentary short",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "@remotion/fonts": "4.0.538",
+    "@remotion/media": "4.0.538",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.538"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "check": "tsc && node scripts/validate-shots.mjs",
+    "sfx": "python scripts/gen_sfx.py",
+    "render": "node scripts/render-all.mjs"
+  }
+}
