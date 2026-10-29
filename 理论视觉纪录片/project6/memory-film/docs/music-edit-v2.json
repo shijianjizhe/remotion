@@ -1,0 +1,30 @@
+{
+  "duration": 82.36666666666666,
+  "segments": [
+    {
+      "video": [
+        0,
+        68.53333333333333
+      ],
+      "musicStart": 0
+    },
+    {
+      "video": [
+        68.53333333333333,
+        77.03333333333333
+      ],
+      "musicStart": 102.567
+    },
+    {
+      "video": [
+        77.03333333333333,
+        82.36666666666666
+      ],
+      "musicStart": 164.803
+    }
+  ],
+  "joinEnvelopeMs": 18,
+  "finalFadeSeconds": 2,
+  "narration": false,
+  "subjectiveListeningVerified": false
+}

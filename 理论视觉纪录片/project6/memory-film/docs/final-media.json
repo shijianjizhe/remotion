@@ -1,0 +1,649 @@
+{
+  "video": {
+    "index": 0,
+    "codec_name": "h264",
+    "codec_long_name": "unknown",
+    "profile": "100",
+    "codec_type": "video",
+    "codec_tag_string": "avc1",
+    "codec_tag": "0x31637661",
+    "width": 1920,
+    "height": 1080,
+    "coded_width": 1920,
+    "coded_height": 1080,
+    "closed_captions": 0,
+    "film_grain": 0,
+    "has_b_frames": 2,
+    "sample_aspect_ratio": "1:1",
+    "display_aspect_ratio": "16:9",
+    "pix_fmt": "yuvj420p",
+    "level": 40,
+    "color_range": "pc",
+    "color_space": "bt470bg",
+    "chroma_location": "center",
+    "field_order": "progressive",
+    "refs": 1,
+    "is_avc": "true",
+    "nal_length_size": "4",
+    "id": "0x1",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "time_base": "1/90000",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "duration_ts": 11700000,
+    "duration": "130.000000",
+    "bit_rate": "1385529",
+    "bits_per_raw_sample": "8",
+    "nb_frames": "3900",
+    "extradata_size": 51,
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "VideoHandler",
+      "vendor_id": "[0][0][0][0]"
+    },
+    "side_data_list": [
+      {
+        "side_data_type": "ICC Profile"
+      }
+    ]
+  },
+  "audio": {
+    "index": 1,
+    "codec_name": "aac",
+    "codec_long_name": "unknown",
+    "profile": "1",
+    "codec_type": "audio",
+    "codec_tag_string": "mp4a",
+    "codec_tag": "0x6134706d",
+    "sample_fmt": "fltp",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "bits_per_sample": 0,
+    "initial_padding": 0,
+    "id": "0x2",
+    "r_frame_rate": "0/0",
+    "avg_frame_rate": "0/0",
+    "time_base": "1/48000",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "duration_ts": 6240000,
+    "duration": "130.000000",
+    "bit_rate": "311876",
+    "nb_frames": "6095",
+    "extradata_size": 5,
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "SoundHandler",
+      "vendor_id": "[0][0][0][0]"
+    }
+  },
+  "duration": "130.000000",
+  "sizeBytes": 27726947,
+  "fullDecodePassed": true,
+  "aacDecodedSamplePeakDbFS": -1.0478403483934624,
+  "clippedSamples": 0,
+  "sampledFrames": 130,
+  "motionPerSecond": [
+    {
+      "second": 1.5,
+      "meanAbsolutePixelDifference": 8.970328317373461
+    },
+    {
+      "second": 2.5,
+      "meanAbsolutePixelDifference": 2.3430734154126767
+    },
+    {
+      "second": 3.5,
+      "meanAbsolutePixelDifference": 2.3016142270861835
+    },
+    {
+      "second": 4.5,
+      "meanAbsolutePixelDifference": 2.1593388052895577
+    },
+    {
+      "second": 5.5,
+      "meanAbsolutePixelDifference": 4.985854993160054
+    },
+    {
+      "second": 6.5,
+      "meanAbsolutePixelDifference": 4.770291837665298
+    },
+    {
+      "second": 7.5,
+      "meanAbsolutePixelDifference": 4.8725398996808025
+    },
+    {
+      "second": 8.5,
+      "meanAbsolutePixelDifference": 7.411577747378021
+    },
+    {
+      "second": 9.5,
+      "meanAbsolutePixelDifference": 4.6972640218878245
+    },
+    {
+      "second": 10.5,
+      "meanAbsolutePixelDifference": 1.7026949384404926
+    },
+    {
+      "second": 11.5,
+      "meanAbsolutePixelDifference": 1.5489238486092112
+    },
+    {
+      "second": 12.5,
+      "meanAbsolutePixelDifference": 1.4021659826721387
+    },
+    {
+      "second": 13.5,
+      "meanAbsolutePixelDifference": 1.3575512995896033
+    },
+    {
+      "second": 14.5,
+      "meanAbsolutePixelDifference": 1.4541130870953032
+    },
+    {
+      "second": 15.5,
+      "meanAbsolutePixelDifference": 1.20359325125399
+    },
+    {
+      "second": 16.5,
+      "meanAbsolutePixelDifference": 1.4921021431828545
+    },
+    {
+      "second": 17.5,
+      "meanAbsolutePixelDifference": 4.860123119015048
+    },
+    {
+      "second": 18.5,
+      "meanAbsolutePixelDifference": 3.3757136342909257
+    },
+    {
+      "second": 19.5,
+      "meanAbsolutePixelDifference": 0.300296397628819
+    },
+    {
+      "second": 20.5,
+      "meanAbsolutePixelDifference": 0.27059735522115824
+    },
+    {
+      "second": 21.5,
+      "meanAbsolutePixelDifference": 0.6325809393524852
+    },
+    {
+      "second": 22.5,
+      "meanAbsolutePixelDifference": 0.5148700410396717
+    },
+    {
+      "second": 23.5,
+      "meanAbsolutePixelDifference": 0.22612859097127222
+    },
+    {
+      "second": 24.5,
+      "meanAbsolutePixelDifference": 0.2538486092111263
+    },
+    {
+      "second": 25.5,
+      "meanAbsolutePixelDifference": 0.7225262197902417
+    },
+    {
+      "second": 26.5,
+      "meanAbsolutePixelDifference": 5.36751025991792
+    },
+    {
+      "second": 27.5,
+      "meanAbsolutePixelDifference": 1.2790560875512995
+    },
+    {
+      "second": 28.5,
+      "meanAbsolutePixelDifference": 1.0298267213862289
+    },
+    {
+      "second": 29.5,
+      "meanAbsolutePixelDifference": 0.9393023255813954
+    },
+    {
+      "second": 30.5,
+      "meanAbsolutePixelDifference": 1.8780209758321933
+    },
+    {
+      "second": 31.5,
+      "meanAbsolutePixelDifference": 1.3646420428636572
+    },
+    {
+      "second": 32.5,
+      "meanAbsolutePixelDifference": 1.0978066575467396
+    },
+    {
+      "second": 33.5,
+      "meanAbsolutePixelDifference": 1.5130278157774737
+    },
+    {
+      "second": 34.5,
+      "meanAbsolutePixelDifference": 1.6546739626082991
+    },
+    {
+      "second": 35.5,
+      "meanAbsolutePixelDifference": 0.5175102599179207
+    },
+    {
+      "second": 36.5,
+      "meanAbsolutePixelDifference": 0.28509803921568627
+    },
+    {
+      "second": 37.5,
+      "meanAbsolutePixelDifference": 0.29999088007295943
+    },
+    {
+      "second": 38.5,
+      "meanAbsolutePixelDifference": 0.6010351117191063
+    },
+    {
+      "second": 39.5,
+      "meanAbsolutePixelDifference": 7.119211126310989
+    },
+    {
+      "second": 40.5,
+      "meanAbsolutePixelDifference": 2.77
+    },
+    {
+      "second": 41.5,
+      "meanAbsolutePixelDifference": 0.8126082991336069
+    },
+    {
+      "second": 42.5,
+      "meanAbsolutePixelDifference": 0.458499772001824
+    },
+    {
+      "second": 43.5,
+      "meanAbsolutePixelDifference": 5.170419516643867
+    },
+    {
+      "second": 44.5,
+      "meanAbsolutePixelDifference": 2.7257273141814866
+    },
+    {
+      "second": 45.5,
+      "meanAbsolutePixelDifference": 3.5878613771089833
+    },
+    {
+      "second": 46.5,
+      "meanAbsolutePixelDifference": 3.5450250797993617
+    },
+    {
+      "second": 47.5,
+      "meanAbsolutePixelDifference": 0.5201687186502508
+    },
+    {
+      "second": 48.5,
+      "meanAbsolutePixelDifference": 1.2353397172822618
+    },
+    {
+      "second": 49.5,
+      "meanAbsolutePixelDifference": 2.0536342909256726
+    },
+    {
+      "second": 50.5,
+      "meanAbsolutePixelDifference": 0.9976972184222527
+    },
+    {
+      "second": 51.5,
+      "meanAbsolutePixelDifference": 0.8293342453260374
+    },
+    {
+      "second": 52.5,
+      "meanAbsolutePixelDifference": 3.0350387596899226
+    },
+    {
+      "second": 53.5,
+      "meanAbsolutePixelDifference": 0.23109439124487005
+    },
+    {
+      "second": 54.5,
+      "meanAbsolutePixelDifference": 0.6189968080255358
+    },
+    {
+      "second": 55.5,
+      "meanAbsolutePixelDifference": 1.1468946648426812
+    },
+    {
+      "second": 56.5,
+      "meanAbsolutePixelDifference": 1.1704514363885088
+    },
+    {
+      "second": 57.5,
+      "meanAbsolutePixelDifference": 0.6871819425444596
+    },
+    {
+      "second": 58.5,
+      "meanAbsolutePixelDifference": 1.3620839033287733
+    },
+    {
+      "second": 59.5,
+      "meanAbsolutePixelDifference": 1.1877701778385772
+    },
+    {
+      "second": 60.5,
+      "meanAbsolutePixelDifference": 0.743766529867761
+    },
+    {
+      "second": 61.5,
+      "meanAbsolutePixelDifference": 0.2254719562243502
+    },
+    {
+      "second": 62.5,
+      "meanAbsolutePixelDifference": 6.059607843137255
+    },
+    {
+      "second": 63.5,
+      "meanAbsolutePixelDifference": 0.8276196990424076
+    },
+    {
+      "second": 64.5,
+      "meanAbsolutePixelDifference": 0.19490196078431374
+    },
+    {
+      "second": 65.5,
+      "meanAbsolutePixelDifference": 0.16353397172822617
+    },
+    {
+      "second": 66.5,
+      "meanAbsolutePixelDifference": 1.9593524851801185
+    },
+    {
+      "second": 67.5,
+      "meanAbsolutePixelDifference": 1.0319516643866848
+    },
+    {
+      "second": 68.5,
+      "meanAbsolutePixelDifference": 1.2691655266757866
+    },
+    {
+      "second": 69.5,
+      "meanAbsolutePixelDifference": 5.906762425900593
+    },
+    {
+      "second": 70.5,
+      "meanAbsolutePixelDifference": 1.8888645690834474
+    },
+    {
+      "second": 71.5,
+      "meanAbsolutePixelDifference": 1.071969904240766
+    },
+    {
+      "second": 72.5,
+      "meanAbsolutePixelDifference": 0.9286684906520748
+    },
+    {
+      "second": 73.5,
+      "meanAbsolutePixelDifference": 4.7115047879616965
+    },
+    {
+      "second": 74.5,
+      "meanAbsolutePixelDifference": 0.2611035111719106
+    },
+    {
+      "second": 75.5,
+      "meanAbsolutePixelDifference": 2.3102416780665753
+    },
+    {
+      "second": 76.5,
+      "meanAbsolutePixelDifference": 1.269297765617875
+    },
+    {
+      "second": 77.5,
+      "meanAbsolutePixelDifference": 1.0402279981760145
+    },
+    {
+      "second": 78.5,
+      "meanAbsolutePixelDifference": 0.8939762881896944
+    },
+    {
+      "second": 79.5,
+      "meanAbsolutePixelDifference": 0.485827633378933
+    },
+    {
+      "second": 80.5,
+      "meanAbsolutePixelDifference": 0.5929730962152303
+    },
+    {
+      "second": 81.5,
+      "meanAbsolutePixelDifference": 3.2490560875512995
+    },
+    {
+      "second": 82.5,
+      "meanAbsolutePixelDifference": 3.5428818969448246
+    },
+    {
+      "second": 83.5,
+      "meanAbsolutePixelDifference": 4.043100775193799
+    },
+    {
+      "second": 84.5,
+      "meanAbsolutePixelDifference": 3.8113634290925673
+    },
+    {
+      "second": 85.5,
+      "meanAbsolutePixelDifference": 2.0314591883264934
+    },
+    {
+      "second": 86.5,
+      "meanAbsolutePixelDifference": 1.9643958048335612
+    },
+    {
+      "second": 87.5,
+      "meanAbsolutePixelDifference": 1.8561194710442317
+    },
+    {
+      "second": 88.5,
+      "meanAbsolutePixelDifference": 2.1767213862289103
+    },
+    {
+      "second": 89.5,
+      "meanAbsolutePixelDifference": 2.0552713178294573
+    },
+    {
+      "second": 90.5,
+      "meanAbsolutePixelDifference": 1.7763018695850432
+    },
+    {
+      "second": 91.5,
+      "meanAbsolutePixelDifference": 0.809233926128591
+    },
+    {
+      "second": 92.5,
+      "meanAbsolutePixelDifference": 0.4587140902872777
+    },
+    {
+      "second": 93.5,
+      "meanAbsolutePixelDifference": 0.927469220246238
+    },
+    {
+      "second": 94.5,
+      "meanAbsolutePixelDifference": 0.5529913360693115
+    },
+    {
+      "second": 95.5,
+      "meanAbsolutePixelDifference": 0.36928864569083447
+    },
+    {
+      "second": 96.5,
+      "meanAbsolutePixelDifference": 0.7358960328317373
+    },
+    {
+      "second": 97.5,
+      "meanAbsolutePixelDifference": 0.4270816233470132
+    },
+    {
+      "second": 98.5,
+      "meanAbsolutePixelDifference": 4.792430460556315
+    },
+    {
+      "second": 99.5,
+      "meanAbsolutePixelDifference": 2.868066575467396
+    },
+    {
+      "second": 100.5,
+      "meanAbsolutePixelDifference": 0.7862425900592795
+    },
+    {
+      "second": 101.5,
+      "meanAbsolutePixelDifference": 0.7799544003647971
+    },
+    {
+      "second": 102.5,
+      "meanAbsolutePixelDifference": 0.3954719562243502
+    },
+    {
+      "second": 103.5,
+      "meanAbsolutePixelDifference": 4.236994984040128
+    },
+    {
+      "second": 104.5,
+      "meanAbsolutePixelDifference": 0.6658641130870953
+    },
+    {
+      "second": 105.5,
+      "meanAbsolutePixelDifference": 2.910177838577291
+    },
+    {
+      "second": 106.5,
+      "meanAbsolutePixelDifference": 5.074783401732786
+    },
+    {
+      "second": 107.5,
+      "meanAbsolutePixelDifference": 1.8695166438668491
+    },
+    {
+      "second": 108.5,
+      "meanAbsolutePixelDifference": 0.9339443684450525
+    },
+    {
+      "second": 109.5,
+      "meanAbsolutePixelDifference": 1.103734610123119
+    },
+    {
+      "second": 110.5,
+      "meanAbsolutePixelDifference": 1.0379115367077063
+    },
+    {
+      "second": 111.5,
+      "meanAbsolutePixelDifference": 1.3406155950752394
+    },
+    {
+      "second": 112.5,
+      "meanAbsolutePixelDifference": 0.9282763337893297
+    },
+    {
+      "second": 113.5,
+      "meanAbsolutePixelDifference": 0.7834655722754218
+    },
+    {
+      "second": 114.5,
+      "meanAbsolutePixelDifference": 0.7835248518011856
+    },
+    {
+      "second": 115.5,
+      "meanAbsolutePixelDifference": 0.9011810305517556
+    },
+    {
+      "second": 116.5,
+      "meanAbsolutePixelDifference": 1.1793935248518013
+    },
+    {
+      "second": 117.5,
+      "meanAbsolutePixelDifference": 1.0605836753305973
+    },
+    {
+      "second": 118.5,
+      "meanAbsolutePixelDifference": 3.6454856361149113
+    },
+    {
+      "second": 119.5,
+      "meanAbsolutePixelDifference": 2.948034655722754
+    },
+    {
+      "second": 120.5,
+      "meanAbsolutePixelDifference": 3.786730506155951
+    },
+    {
+      "second": 121.5,
+      "meanAbsolutePixelDifference": 0.9619425444596443
+    },
+    {
+      "second": 122.5,
+      "meanAbsolutePixelDifference": 0.2789329685362517
+    },
+    {
+      "second": 123.5,
+      "meanAbsolutePixelDifference": 0.25002279981760145
+    },
+    {
+      "second": 124.5,
+      "meanAbsolutePixelDifference": 0.2159142726858185
+    },
+    {
+      "second": 125.5,
+      "meanAbsolutePixelDifference": 1.0735248518011855
+    },
+    {
+      "second": 126.5,
+      "meanAbsolutePixelDifference": 0.8414637482900137
+    },
+    {
+      "second": 127.5,
+      "meanAbsolutePixelDifference": 0.21310533515731875
+    },
+    {
+      "second": 128.5,
+      "meanAbsolutePixelDifference": 0.2307250341997264
+    },
+    {
+      "second": 129.5,
+      "meanAbsolutePixelDifference": 1.245389876880985
+    }
+  ],
+  "subjectivePlaybackVerified": false
+}

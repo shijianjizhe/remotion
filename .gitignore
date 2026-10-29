@@ -12,4 +12,10 @@ output/
 
 # 忽略所有 mp4，参考视频素材除外
 *.mp4
-!infomation/参考视频/*.mp4
+!*/infomation/参考视频/*.mp4
+
+# 第三方 TTS 模型（kokoro，供 scripts/voice.py 使用，可重新下载）
+**/tools/kokoro*
+
+# 质检对照产物（参考帧、分镜、抽帧、音频分析，由 scripts/qa-*.py 等重新生成）
+qa/

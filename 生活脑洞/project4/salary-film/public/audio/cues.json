@@ -1,0 +1,184 @@
+{
+  "expenses": [
+    {
+      "label": "房租",
+      "amount": 2000,
+      "start": 60,
+      "hit": 105,
+      "end": 135,
+      "i": 0
+    },
+    {
+      "label": "吃饭",
+      "amount": 2000,
+      "start": 135,
+      "hit": 180,
+      "end": 210,
+      "i": 1
+    },
+    {
+      "label": "信用卡还款",
+      "amount": 1100,
+      "start": 210,
+      "hit": 255,
+      "end": 285,
+      "i": 2
+    },
+    {
+      "label": "交通通勤",
+      "amount": 400,
+      "start": 285,
+      "hit": 315,
+      "end": 345,
+      "i": 3
+    },
+    {
+      "label": "水电网话",
+      "amount": 400,
+      "start": 345,
+      "hit": 375,
+      "end": 405,
+      "i": 4
+    },
+    {
+      "label": "生活购物",
+      "amount": 900,
+      "start": 405,
+      "hit": 450,
+      "end": 480,
+      "i": 5
+    },
+    {
+      "label": "会员订阅",
+      "amount": 200,
+      "start": 480,
+      "hit": 510,
+      "end": 525,
+      "i": 6
+    }
+  ],
+  "SALARY": 8000,
+  "after": [
+    6000,
+    4000,
+    2900,
+    2500,
+    2100,
+    1200,
+    1000
+  ],
+  "screenshots": [
+    6,
+    45,
+    105,
+    180,
+    255,
+    315,
+    375,
+    450,
+    510,
+    555,
+    660,
+    750
+  ],
+  "cues": {
+    "arrival": 6,
+    "silence": [
+      525,
+      540
+    ],
+    "station": 600,
+    "hold": 720
+  },
+  "narration": [
+    {
+      "start": 0,
+      "end": 60,
+      "text": "工资到账，八千！"
+    },
+    {
+      "start": 60,
+      "end": 135,
+      "text": "房租先拿走两千。"
+    },
+    {
+      "start": 135,
+      "end": 210,
+      "text": "吃饭，两千。"
+    },
+    {
+      "start": 210,
+      "end": 285,
+      "text": "上个月的信用卡，再还一千一。"
+    },
+    {
+      "start": 285,
+      "end": 345,
+      "text": "交通，四百。"
+    },
+    {
+      "start": 345,
+      "end": 405,
+      "text": "水电网话，四百。"
+    },
+    {
+      "start": 405,
+      "end": 480,
+      "text": "买点生活用品，九百。"
+    },
+    {
+      "start": 480,
+      "end": 525,
+      "text": "会员订阅，两百。"
+    },
+    {
+      "start": 525,
+      "end": 600,
+      "text": "等等……就剩一千？"
+    },
+    {
+      "start": 600,
+      "end": 720,
+      "text": "原来，我只是工资的中转站。"
+    }
+  ],
+  "audioEvents": [
+    {
+      "frame": 6,
+      "kind": "arrival"
+    },
+    {
+      "frame": 105,
+      "kind": "stamp"
+    },
+    {
+      "frame": 180,
+      "kind": "bite"
+    },
+    {
+      "frame": 255,
+      "kind": "magnet"
+    },
+    {
+      "frame": 315,
+      "kind": "train"
+    },
+    {
+      "frame": 375,
+      "kind": "snip"
+    },
+    {
+      "frame": 450,
+      "kind": "grab"
+    },
+    {
+      "frame": 510,
+      "kind": "pop"
+    },
+    {
+      "frame": 600,
+      "kind": "station"
+    }
+  ],
+  "FPS": 30
+}

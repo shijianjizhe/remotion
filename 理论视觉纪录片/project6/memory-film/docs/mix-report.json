@@ -1,0 +1,12 @@
+{
+  "sampleRate": 48000,
+  "duration": 130,
+  "music": "music.m4a",
+  "originalUntil": 119.589,
+  "crossfadeSeconds": 0.8,
+  "tailSourceStart": 181.630723356,
+  "peakDbFS": -1.0000091428015607,
+  "limiterGain": 0.9017417382546004,
+  "narration": false,
+  "subjectiveListeningVerified": false
+}

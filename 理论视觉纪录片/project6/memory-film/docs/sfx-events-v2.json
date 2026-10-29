@@ -1,0 +1,282 @@
+[
+  {
+    "timeSec": 0.4,
+    "frame": 12,
+    "kind": "reel",
+    "gain": 0.025,
+    "oldTimeSec": 0.438
+  },
+  {
+    "timeSec": 0.9,
+    "frame": 27,
+    "kind": "reel",
+    "gain": 0.025,
+    "oldTimeSec": 0.9699260000000001
+  },
+  {
+    "timeSec": 1.4,
+    "frame": 42,
+    "kind": "reel",
+    "gain": 0.025,
+    "oldTimeSec": 1.5018520000000002
+  },
+  {
+    "timeSec": 1.9,
+    "frame": 57,
+    "kind": "reel",
+    "gain": 0.025,
+    "oldTimeSec": 2.0337780000000003
+  },
+  {
+    "timeSec": 2.4,
+    "frame": 72,
+    "kind": "reel",
+    "gain": 0.025,
+    "oldTimeSec": 2.5657040000000007
+  },
+  {
+    "timeSec": 2.9,
+    "frame": 87,
+    "kind": "reel",
+    "gain": 0.025,
+    "oldTimeSec": 3.097630000000001
+  },
+  {
+    "timeSec": 3.4,
+    "frame": 102,
+    "kind": "reel",
+    "gain": 0.025,
+    "oldTimeSec": 3.629556000000001
+  },
+  {
+    "timeSec": 3.9,
+    "frame": 117,
+    "kind": "reel",
+    "gain": 0.025,
+    "oldTimeSec": 4.161482
+  },
+  {
+    "timeSec": 4.4,
+    "frame": 132,
+    "kind": "reel",
+    "gain": 0.025,
+    "oldTimeSec": 4.693408000000001
+  },
+  {
+    "timeSec": 4.833333333333333,
+    "frame": 145,
+    "kind": "reel",
+    "gain": 0.025,
+    "oldTimeSec": 5.225334000000001
+  },
+  {
+    "timeSec": 5.1,
+    "frame": 153,
+    "kind": "reel",
+    "gain": 0.025,
+    "oldTimeSec": 5.757260000000001
+  },
+  {
+    "timeSec": 5.4,
+    "frame": 162,
+    "kind": "reel",
+    "gain": 0.025,
+    "oldTimeSec": 6.289186000000001
+  },
+  {
+    "timeSec": 5.666666666666667,
+    "frame": 170,
+    "kind": "reel",
+    "gain": 0.025,
+    "oldTimeSec": 6.821112000000001
+  },
+  {
+    "timeSec": 5.966666666666667,
+    "frame": 179,
+    "kind": "reel",
+    "gain": 0.025,
+    "oldTimeSec": 7.3530380000000015
+  },
+  {
+    "timeSec": 6.233333333333333,
+    "frame": 187,
+    "kind": "reel",
+    "gain": 0.025,
+    "oldTimeSec": 7.884964000000001
+  },
+  {
+    "timeSec": 6.533333333333333,
+    "frame": 196,
+    "kind": "reel",
+    "gain": 0.025,
+    "oldTimeSec": 8.416890000000002
+  },
+  {
+    "timeSec": 10.8,
+    "frame": 324,
+    "kind": "hit",
+    "gain": 0.12,
+    "oldTimeSec": 13.204
+  },
+  {
+    "timeSec": 13.2,
+    "frame": 396,
+    "kind": "hit",
+    "gain": 0.12,
+    "oldTimeSec": 17.459
+  },
+  {
+    "timeSec": 23.833333333333332,
+    "frame": 715,
+    "kind": "hit",
+    "gain": 0.12,
+    "oldTimeSec": 34.48
+  },
+  {
+    "timeSec": 68.53333333333333,
+    "frame": 2056,
+    "kind": "hit",
+    "gain": 0.12,
+    "oldTimeSec": 102.567
+  },
+  {
+    "timeSec": 20.6,
+    "frame": 618,
+    "kind": "tick",
+    "gain": 0.055,
+    "oldTimeSec": 30.224
+  },
+  {
+    "timeSec": 37.666666666666664,
+    "frame": 1130,
+    "kind": "tick",
+    "gain": 0.055,
+    "oldTimeSec": 55.756
+  },
+  {
+    "timeSec": 39.43333333333333,
+    "frame": 1183,
+    "kind": "tick",
+    "gain": 0.055,
+    "oldTimeSec": 57.884
+  },
+  {
+    "timeSec": 41.233333333333334,
+    "frame": 1237,
+    "kind": "tick",
+    "gain": 0.055,
+    "oldTimeSec": 60.011
+  },
+  {
+    "timeSec": 61.6,
+    "frame": 1848,
+    "kind": "tick",
+    "gain": 0.055,
+    "oldTimeSec": 89.801
+  },
+  {
+    "timeSec": 28.1,
+    "frame": 843,
+    "kind": "paper",
+    "gain": 0.045,
+    "oldTimeSec": 42.991
+  },
+  {
+    "timeSec": 31.3,
+    "frame": 939,
+    "kind": "paper",
+    "gain": 0.045,
+    "oldTimeSec": 47.246
+  },
+  {
+    "timeSec": 47.233333333333334,
+    "frame": 1417,
+    "kind": "paper",
+    "gain": 0.045,
+    "oldTimeSec": 68.523
+  },
+  {
+    "timeSec": 70.66666666666667,
+    "frame": 2120,
+    "kind": "paper",
+    "gain": 0.045,
+    "oldTimeSec": 106.822
+  },
+  {
+    "timeSec": 77.03333333333333,
+    "frame": 2311,
+    "kind": "paper",
+    "gain": 0.045,
+    "oldTimeSec": 119.589
+  },
+  {
+    "timeSec": 79.7,
+    "frame": 2391,
+    "kind": "paper",
+    "gain": 0.045,
+    "oldTimeSec": 124.8
+  },
+  {
+    "timeSec": 45.13333333333333,
+    "frame": 1354,
+    "kind": "glass",
+    "gain": 0.09,
+    "oldTimeSec": 66.386
+  },
+  {
+    "timeSec": 50.96666666666667,
+    "frame": 1529,
+    "kind": "paper",
+    "gain": 0.035,
+    "oldTimeSec": 74.37
+  },
+  {
+    "timeSec": 51.5,
+    "frame": 1545,
+    "kind": "paper",
+    "gain": 0.035,
+    "oldTimeSec": 74.902
+  },
+  {
+    "timeSec": 52.03333333333333,
+    "frame": 1561,
+    "kind": "paper",
+    "gain": 0.035,
+    "oldTimeSec": 75.434
+  },
+  {
+    "timeSec": 52.56666666666667,
+    "frame": 1577,
+    "kind": "paper",
+    "gain": 0.035,
+    "oldTimeSec": 75.96600000000001
+  },
+  {
+    "timeSec": 53.1,
+    "frame": 1593,
+    "kind": "paper",
+    "gain": 0.035,
+    "oldTimeSec": 76.498
+  },
+  {
+    "timeSec": 53.63333333333333,
+    "frame": 1609,
+    "kind": "paper",
+    "gain": 0.035,
+    "oldTimeSec": 77.03
+  },
+  {
+    "timeSec": 54.03333333333333,
+    "frame": 1621,
+    "kind": "paper",
+    "gain": 0.035,
+    "oldTimeSec": 77.56200000000001
+  },
+  {
+    "timeSec": 54.43333333333333,
+    "frame": 1633,
+    "kind": "paper",
+    "gain": 0.035,
+    "oldTimeSec": 78.09400000000001
+  }
+]

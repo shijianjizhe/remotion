@@ -1,0 +1,128 @@
+{
+  "durationSec": 192.84172335600908,
+  "independentBpm": 112.34714673913044,
+  "documentBpm": 112.798,
+  "onsetChecks": [
+    {
+      "cue": "start-hit",
+      "documentSec": 0.438,
+      "detectedOnsetSec": 0.40634920634920635,
+      "deltaMs": -32
+    },
+    {
+      "cue": "intro-build",
+      "documentSec": 15.86,
+      "detectedOnsetSec": 15.85922902494331,
+      "deltaMs": -1
+    },
+    {
+      "cue": "drop-1",
+      "documentSec": 17.459,
+      "detectedOnsetSec": 17.438185941043084,
+      "deltaMs": -21
+    },
+    {
+      "cue": "fill-a1",
+      "documentSec": 32.345,
+      "detectedOnsetSec": 32.33378684807256,
+      "deltaMs": -11
+    },
+    {
+      "cue": "phrase-a1",
+      "documentSec": 34.48,
+      "detectedOnsetSec": 34.47002267573696,
+      "deltaMs": -10
+    },
+    {
+      "cue": "fill-a2",
+      "documentSec": 49.366,
+      "detectedOnsetSec": 49.35401360544218,
+      "deltaMs": -12
+    },
+    {
+      "cue": "phrase-a2",
+      "documentSec": 51.501,
+      "detectedOnsetSec": 51.49024943310658,
+      "deltaMs": -11
+    },
+    {
+      "cue": "fill-a3",
+      "documentSec": 66.386,
+      "detectedOnsetSec": 66.37424036281179,
+      "deltaMs": -12
+    },
+    {
+      "cue": "phrase-a3",
+      "documentSec": 68.523,
+      "detectedOnsetSec": 68.49886621315193,
+      "deltaMs": -24
+    },
+    {
+      "cue": "fill-a4",
+      "documentSec": 83.406,
+      "detectedOnsetSec": 83.3944671201814,
+      "deltaMs": -12
+    },
+    {
+      "cue": "break-in",
+      "documentSec": 85.546,
+      "detectedOnsetSec": 85.51909297052154,
+      "deltaMs": -27
+    },
+    {
+      "cue": "pre-drop-2",
+      "documentSec": 100.983,
+      "detectedOnsetSec": 100.96036281179138,
+      "deltaMs": -23
+    },
+    {
+      "cue": "drop-2",
+      "documentSec": 102.567,
+      "detectedOnsetSec": 102.53931972789115,
+      "deltaMs": -28
+    },
+    {
+      "cue": "fill-b1",
+      "documentSec": 117.461,
+      "detectedOnsetSec": 117.43492063492063,
+      "deltaMs": -26
+    },
+    {
+      "cue": "phrase-b1",
+      "documentSec": 119.589,
+      "detectedOnsetSec": 119.57115646258504,
+      "deltaMs": -18
+    },
+    {
+      "cue": "fill-b2",
+      "documentSec": 134.211,
+      "detectedOnsetSec": 134.19972789115647,
+      "deltaMs": -11
+    },
+    {
+      "cue": "texture-change",
+      "documentSec": 136.611,
+      "detectedOnsetSec": 136.60299319727892,
+      "deltaMs": -8
+    },
+    {
+      "cue": "phrase-c1",
+      "documentSec": 153.632,
+      "detectedOnsetSec": 153.62321995464853,
+      "deltaMs": -9
+    },
+    {
+      "cue": "fade-start",
+      "documentSec": 164.803,
+      "detectedOnsetSec": 164.79201814058956,
+      "deltaMs": -11
+    },
+    {
+      "cue": "nearly-silent",
+      "documentSec": 184.0,
+      "detectedOnsetSec": 184.49414965986395,
+      "deltaMs": 494
+    }
+  ],
+  "note": "Onset detection verifies transients, not subjective listening or musical meter."
+}

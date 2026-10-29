@@ -1,0 +1,11 @@
+Generated using built-in image_gen. Style reference: project3/output/poster.png.
+
+Create a matching companion cover for the film "时间并不均匀" using the supplied "看不见的代价" poster as the STYLE AND LAYOUT reference. New landscape 16:9 finished cover, target 1920x1080. Match the reference very closely: almost-black warm charcoal background, aged subdued gold and parchment palette, delicate film grain and vignette, historical science documentary aesthetic, restrained illumination, generous dark negative space, precise engraved linework. No bright blue, no neon, no excessive effects.
+Preserve the reference's visual hierarchy and placements: small widely tracked English kicker at top center around y=135; very large elegant gold Chinese Song/Ming serif title centered across upper third around y=260; a single central medallion-like scientific object centered around x=960 y=640, about 300 pixels diameter; fine horizontal precision ticks below around y=860; two small centered footer lines around y=930 and y=975.
+Replace the reference coin with an antique engraved brass clock dial, frontal with subtle right-edge thickness, ivory-gold numerals and delicate mechanical hands at 10:10, warm restrained glow. Behind it, thin antique-gold time trajectories extending across the composition: evenly spaced ticks on one curving line and progressively stretched spacing on a second subtle dashed line, suggesting time flowing at different rates. Keep this scientific graphic elegant, spare and harmonious like the reference's branching paths, not a busy infographic. No extra clocks or floating objects. 
+EXACT text, correct Chinese, no other words:
+Top kicker: "TIME IS NOT UNIFORM"
+Main title: "时间并不均匀"
+Footer first line: "相对论 · 时间知觉 · 记忆"
+Footer second line: "PHYSICS OF TIME — EXPERIENCE OF TIME"
+Keep title large, gold textured gradient, clear and highly legible, same refined restrained style and size as reference. Do not include any of the reference's original film title, French text, opportunity-cost terms or coin/window symbol. This is a companion film cover on physical and perceived time, not economics. Deliver a clean publication-ready PNG image without mockup frames, borders or watermarks.

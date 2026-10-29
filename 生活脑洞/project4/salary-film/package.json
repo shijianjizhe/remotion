@@ -1,0 +1,17 @@
+{
+  "name": "salary-film",
+  "private": true,
+  "scripts": {
+    "render": "remotion render src/index.tsx Salary8000FlatVector out/salary-8000/salary-8000-final.mp4",
+    "test": "node --experimental-strip-types src/test.ts",
+    "audio:cues": "node --experimental-strip-types scripts/export-cues.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "@remotion/fonts": "4.0.538",
+    "remotion": "4.0.538",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "type": "module"
+}

@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('scripts/audio.py');s=p.read_text(encoding='utf-8-sig');start=s.index("for i,line in enumerate(c['narration']):");end=s.index('# Original 120 BPM',start);s=s[:start]+s[end:];start=s.index('# Side-chain music under the narrator');end=s.index('music[int(17.5*sr)',start);s=s[:start]+'# No narration: retain music and effects without speech ducking.\n'+s[end:];s=s.replace('mix=voice[:,None]+music+fx','mix=music+fx').replace("sf.write(out/'voice.wav',voice,sr);",'');p.write_text(s,encoding='utf-8')

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "frames": 3900,
+  "fps": 30,
+  "duration": 130,
+  "boundaries": [
+    0,
+    524,
+    779,
+    1290,
+    1545,
+    2183,
+    3077,
+    3588,
+    3900
+  ],
+  "checks": [
+    "five speed means",
+    "three group proportions",
+    "independent samples labeled",
+    "Chinese demonstration labeled",
+    "no absent lure in presented list",
+    "three climax frame alignment",
+    "continuous scene coverage"
+  ]
+}
