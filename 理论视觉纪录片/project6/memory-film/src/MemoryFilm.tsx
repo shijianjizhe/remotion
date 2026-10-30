@@ -238,6 +238,7 @@ const Scene=({kind,from}:{kind:number,from:number})=>{
  const components=[Opening,Questions,Speed,NewExperiment,Glass,Semantic,Archive,Ending];const Component=components[kind];
  return <svg width="1920" height="1080" viewBox="0 0 1920 1080" style={{position:'absolute'}}><Environment t={t}/><Component t={t}/><rect width="1920" height="1080" fill="#000" opacity={kind===0?1-p(t,0,.7):0}/></svg>;
 };
+export {Environment, Projector, Film, Shard};
 export const MemoryFilm=()=> <AbsoluteFill style={{background:'#050708'}}>
  <style>{`@font-face{font-family:FilmSong;src:url('${staticFile('fonts/song.ttc')}')}@font-face{font-family:FilmSans;src:url('${staticFile('fonts/sans.ttc')}')}`}</style>
  {boundaries.slice(0,-1).map((a,i)=>{const from=Math.round(remap(a,'old','new')*30),end=Math.round(remap(boundaries[i+1],'old','new')*30);return <Sequence key={i} from={from} durationInFrames={end-from} name={['事件被记录','提问的变量','速度估计','独立实验二','不存在的玻璃','缺席的词','记忆重建','结尾'][i]}><Scene kind={i} from={from}/></Sequence>})}

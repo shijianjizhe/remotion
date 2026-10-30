@@ -1,0 +1,188 @@
+[
+  {
+    "id": "A02",
+    "frame": 109,
+    "boundaryMeanDifference": 0.6162022569444444,
+    "brightnessRatio": 1.0344371203023563
+  },
+  {
+    "id": "A03",
+    "frame": 268,
+    "boundaryMeanDifference": 0.059027777777777776,
+    "brightnessRatio": 1.0025065925036583
+  },
+  {
+    "id": "A04",
+    "frame": 364,
+    "boundaryMeanDifference": 0.0011979166666666666,
+    "brightnessRatio": 0.9999835629221943
+  },
+  {
+    "id": "A05",
+    "frame": 524,
+    "boundaryMeanDifference": 0.3739322916666667,
+    "brightnessRatio": 1.0166483550275007
+  },
+  {
+    "id": "A06",
+    "frame": 683,
+    "boundaryMeanDifference": 0.0028255208333333335,
+    "brightnessRatio": 0.9999739995116068
+  },
+  {
+    "id": "B01",
+    "frame": 779,
+    "boundaryMeanDifference": 0.003953993055555555,
+    "brightnessRatio": 1.000052268875259
+  },
+  {
+    "id": "B02",
+    "frame": 907,
+    "boundaryMeanDifference": 0.3558810763888889,
+    "brightnessRatio": 1.0128313507393019
+  },
+  {
+    "id": "B03",
+    "frame": 1002,
+    "boundaryMeanDifference": 0.005381944444444444,
+    "brightnessRatio": 0.999944415918729
+  },
+  {
+    "id": "B04",
+    "frame": 1162,
+    "boundaryMeanDifference": 0.04514322916666667,
+    "brightnessRatio": 0.9982494064079198
+  },
+  {
+    "id": "B05",
+    "frame": 1290,
+    "boundaryMeanDifference": 0.6200390625,
+    "brightnessRatio": 1.032747377475908
+  },
+  {
+    "id": "B06",
+    "frame": 1385,
+    "boundaryMeanDifference": 0.002348090277777778,
+    "brightnessRatio": 1.00000229391853
+  },
+  {
+    "id": "B07",
+    "frame": 1513,
+    "boundaryMeanDifference": 0.008259548611111112,
+    "brightnessRatio": 1.000091053888631
+  },
+  {
+    "id": "C01",
+    "frame": 1641,
+    "boundaryMeanDifference": 0.34739583333333335,
+    "brightnessRatio": 1.015193757083907
+  },
+  {
+    "id": "C02",
+    "frame": 1784,
+    "boundaryMeanDifference": 0.00125,
+    "brightnessRatio": 0.9999946601945928
+  },
+  {
+    "id": "C03",
+    "frame": 1928,
+    "boundaryMeanDifference": 0.002265625,
+    "brightnessRatio": 0.9999885207896088
+  },
+  {
+    "id": "C04",
+    "frame": 2088,
+    "boundaryMeanDifference": 0.2378342013888889,
+    "brightnessRatio": 1.0059264770525993
+  },
+  {
+    "id": "C04b",
+    "frame": 2247,
+    "boundaryMeanDifference": 0.0025303819444444445,
+    "brightnessRatio": 0.9999790795050052
+  },
+  {
+    "id": "C05",
+    "frame": 2407,
+    "boundaryMeanDifference": 0.1864279513888889,
+    "brightnessRatio": 1.0044268674372934
+  },
+  {
+    "id": "C06",
+    "frame": 2566,
+    "boundaryMeanDifference": 0.0006293402777777778,
+    "brightnessRatio": 0.9999957890209671
+  },
+  {
+    "id": "C07",
+    "frame": 2726,
+    "boundaryMeanDifference": 0.5596440972222222,
+    "brightnessRatio": 1.0169123291633864
+  },
+  {
+    "id": "D01",
+    "frame": 2854,
+    "boundaryMeanDifference": 0.48059461805555553,
+    "brightnessRatio": 1.0237022910218991
+  },
+  {
+    "id": "D02",
+    "frame": 2981,
+    "boundaryMeanDifference": 0.0012065972222222222,
+    "brightnessRatio": 0.9999737001829071
+  },
+  {
+    "id": "D03",
+    "frame": 3109,
+    "boundaryMeanDifference": 0.6292230902777778,
+    "brightnessRatio": 1.0268737163253503
+  },
+  {
+    "id": "D04",
+    "frame": 3237,
+    "boundaryMeanDifference": 0.45116319444444447,
+    "brightnessRatio": 1.0218367510337472
+  },
+  {
+    "id": "E01",
+    "frame": 3364,
+    "boundaryMeanDifference": 0.0040494791666666665,
+    "brightnessRatio": 0.9999515666625646
+  },
+  {
+    "id": "E02",
+    "frame": 3460,
+    "boundaryMeanDifference": 0.04333767361111111,
+    "brightnessRatio": 0.9982288469064783
+  },
+  {
+    "id": "E03",
+    "frame": 3588,
+    "boundaryMeanDifference": 0.45544270833333333,
+    "brightnessRatio": 1.0218806839048704
+  },
+  {
+    "id": "E04",
+    "frame": 3715,
+    "boundaryMeanDifference": 0.0025260416666666665,
+    "brightnessRatio": 1.0000428755209425
+  },
+  {
+    "id": "E05",
+    "frame": 3843,
+    "boundaryMeanDifference": 0.4997092013888889,
+    "brightnessRatio": 1.0239303627567982
+  },
+  {
+    "id": "F01",
+    "frame": 3970,
+    "boundaryMeanDifference": 0.005859375,
+    "brightnessRatio": 0.9999745150122505
+  },
+  {
+    "id": "F02",
+    "frame": 4050,
+    "boundaryMeanDifference": 0.04216145833333333,
+    "brightnessRatio": 1.0015689648393684
+  }
+]

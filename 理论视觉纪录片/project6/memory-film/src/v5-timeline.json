@@ -1,0 +1,340 @@
+{
+  "fps": 30,
+  "durationInFrames": 4161,
+  "duration": 138.7,
+  "shots": [
+    {
+      "id": "A01",
+      "fromFrame": 0,
+      "toFrame": 109,
+      "action": "词卡启动",
+      "caption": "看过的词，你能认出来吗？",
+      "captionFrame": 12,
+      "captionMode": "type",
+      "sourceTime": 0.0
+    },
+    {
+      "id": "A02",
+      "fromFrame": 109,
+      "toFrame": 268,
+      "action": "中文词表",
+      "caption": "你记住了哪些词？",
+      "captionFrame": 121,
+      "captionMode": "rise",
+      "sourceTime": 3.6333333333333333
+    },
+    {
+      "id": "A03",
+      "fromFrame": 268,
+      "toFrame": 364,
+      "action": "关闭词表",
+      "caption": "有一个词，从未出现",
+      "captionFrame": 312,
+      "captionMode": "lock",
+      "sourceTime": 8.933333333333334
+    },
+    {
+      "id": "A04",
+      "fromFrame": 364,
+      "toFrame": 524,
+      "action": "空位补出睡眠",
+      "caption": "睡眠：未呈现",
+      "captionFrame": 467,
+      "captionMode": "type",
+      "sourceTime": 12.133333333333333
+    },
+    {
+      "id": "A05",
+      "fromFrame": 524,
+      "toFrame": 683,
+      "action": "两个独立实验",
+      "caption": "联想，也可能制造回忆",
+      "captionFrame": 631,
+      "captionMode": "rise",
+      "sourceTime": 17.466666666666665
+    },
+    {
+      "id": "A06",
+      "fromFrame": 683,
+      "toFrame": 779,
+      "action": "实际与回忆错位",
+      "caption": "我们可能记起不存在的信息",
+      "captionFrame": 727,
+      "captionMode": "lock",
+      "sourceTime": 22.766666666666666
+    },
+    {
+      "id": "B01",
+      "fromFrame": 779,
+      "toFrame": 907,
+      "action": "事故胶片",
+      "caption": "原片里，没有碎玻璃",
+      "captionFrame": 844,
+      "captionMode": "type",
+      "sourceTime": 25.966666666666665
+    },
+    {
+      "id": "B02",
+      "fromFrame": 907,
+      "toFrame": 1002,
+      "action": "三组点阵",
+      "caption": "150名学生，三组各50人",
+      "captionFrame": 950,
+      "captionMode": "rise",
+      "sourceTime": 30.233333333333334
+    },
+    {
+      "id": "B03",
+      "fromFrame": 1002,
+      "toFrame": 1162,
+      "action": "问句条件",
+      "caption": "差别，在先前的提问",
+      "captionFrame": 1110,
+      "captionMode": "lock",
+      "sourceTime": 33.4
+    },
+    {
+      "id": "B04",
+      "fromFrame": 1162,
+      "toFrame": 1290,
+      "action": "一周后",
+      "caption": "一周后，不再播放影片",
+      "captionFrame": 1225,
+      "captionMode": "type",
+      "sourceTime": 38.733333333333334
+    },
+    {
+      "id": "B05",
+      "fromFrame": 1290,
+      "toFrame": 1385,
+      "action": "玻璃问题",
+      "caption": "你看到碎玻璃了吗？",
+      "captionFrame": 1333,
+      "captionMode": "rise",
+      "sourceTime": 43.0
+    },
+    {
+      "id": "B06",
+      "fromFrame": 1385,
+      "toFrame": 1513,
+      "action": "三组回答比例",
+      "caption": "回答“看见了”的比例",
+      "captionFrame": 1470,
+      "captionMode": "lock",
+      "sourceTime": 46.166666666666664
+    },
+    {
+      "id": "B07",
+      "fromFrame": 1513,
+      "toFrame": 1641,
+      "action": "原片与报告",
+      "caption": "原始记录，不等于后来报告",
+      "captionFrame": 1572,
+      "captionMode": "type",
+      "sourceTime": 50.43333333333333
+    },
+    {
+      "id": "C01",
+      "fromFrame": 1641,
+      "toFrame": 1784,
+      "action": "童年照片档案",
+      "caption": "如果错记的，是一段童年？",
+      "captionFrame": 1732,
+      "captionMode": "rise",
+      "sourceTime": 54.7
+    },
+    {
+      "id": "C02",
+      "fromFrame": 1784,
+      "toFrame": 1928,
+      "action": "照片加工",
+      "caption": "这张照片，经过加工",
+      "captionFrame": 1876,
+      "captionMode": "lock",
+      "sourceTime": 59.46666666666667
+    },
+    {
+      "id": "C03",
+      "fromFrame": 1928,
+      "toFrame": 2088,
+      "action": "第一次访谈",
+      "caption": "第一次访谈：尝试回忆",
+      "captionFrame": 1940,
+      "captionMode": "type",
+      "sourceTime": 64.26666666666667
+    },
+    {
+      "id": "C04",
+      "fromFrame": 2088,
+      "toFrame": 2247,
+      "action": "第二次访谈",
+      "caption": "第二次访谈：继续回忆",
+      "captionFrame": 2100,
+      "captionMode": "rise",
+      "sourceTime": 86.62200000000001
+    },
+    {
+      "id": "C04b",
+      "fromFrame": 2247,
+      "toFrame": 2407,
+      "action": "第三次访谈",
+      "caption": "第三次访谈：再次报告",
+      "captionFrame": 2259,
+      "captionMode": "lock",
+      "sourceTime": 91.92200000000003
+    },
+    {
+      "id": "C05",
+      "fromFrame": 2407,
+      "toFrame": 2566,
+      "action": "核对事实",
+      "caption": "这次热气球之旅，从未发生",
+      "captionFrame": 2497,
+      "captionMode": "type",
+      "sourceTime": 97.25533333333334
+    },
+    {
+      "id": "C06",
+      "fromFrame": 2566,
+      "toFrame": 2726,
+      "action": "20人研究结果",
+      "caption": "完整或部分的虚假记忆报告",
+      "captionFrame": 2674,
+      "captionMode": "rise",
+      "sourceTime": 102.55533333333335
+    },
+    {
+      "id": "C07",
+      "fromFrame": 2726,
+      "toFrame": 2854,
+      "action": "条件归档",
+      "caption": "照片、引导想象、三次访谈",
+      "captionFrame": 2802,
+      "captionMode": "lock",
+      "sourceTime": 107.88866666666667
+    },
+    {
+      "id": "D01",
+      "fromFrame": 2854,
+      "toFrame": 2981,
+      "action": "八项研究",
+      "caption": "单项实验之外，如何归类？",
+      "captionFrame": 2912,
+      "captionMode": "type",
+      "sourceTime": 112.15533333333335
+    },
+    {
+      "id": "D02",
+      "fromFrame": 2981,
+      "toFrame": 3109,
+      "action": "统一编码",
+      "caption": "用同一套标准，重新判断",
+      "captionFrame": 3057,
+      "captionMode": "rise",
+      "sourceTime": 116.38866666666667
+    },
+    {
+      "id": "D03",
+      "fromFrame": 3109,
+      "toFrame": 3237,
+      "action": "423案例分类",
+      "caption": "30.4% 被归类为虚假记忆",
+      "captionFrame": 3185,
+      "captionMode": "lock",
+      "sourceTime": 120.65533333333335
+    },
+    {
+      "id": "D04",
+      "fromFrame": 3237,
+      "toFrame": 3364,
+      "action": "另一类接受",
+      "caption": "接受暗示，不等于同一种分类",
+      "captionFrame": 3293,
+      "captionMode": "type",
+      "sourceTime": 124.92200000000003
+    },
+    {
+      "id": "E01",
+      "fromFrame": 3364,
+      "toFrame": 3460,
+      "action": "来源分流",
+      "caption": "这段记忆，来自哪里？",
+      "captionFrame": 3408,
+      "captionMode": "rise",
+      "sourceTime": 129.15533333333335
+    },
+    {
+      "id": "E02",
+      "fromFrame": 3460,
+      "toFrame": 3588,
+      "action": "来源标签错配",
+      "caption": "来源判断，也可能出错",
+      "captionFrame": 3536,
+      "captionMode": "lock",
+      "sourceTime": 132.35533333333333
+    },
+    {
+      "id": "E03",
+      "fromFrame": 3588,
+      "toFrame": 3715,
+      "action": "54学生两类记录",
+      "caption": "记住的，是自己如何得知消息",
+      "captionFrame": 3644,
+      "captionMode": "type",
+      "sourceTime": 136.622
+    },
+    {
+      "id": "E04",
+      "fromFrame": 3715,
+      "toFrame": 3843,
+      "action": "分组复测",
+      "caption": "1、6或32周后，再次记录",
+      "captionFrame": 3791,
+      "captionMode": "rise",
+      "sourceTime": 140.85533333333333
+    },
+    {
+      "id": "E05",
+      "fromFrame": 3843,
+      "toFrame": 3970,
+      "action": "一致性与确信分离",
+      "caption": "确信感，不能独立证明准确",
+      "captionFrame": 3918,
+      "captionMode": "lock",
+      "sourceTime": 145.122
+    },
+    {
+      "id": "F01",
+      "fromFrame": 3970,
+      "toFrame": 4050,
+      "action": "证据归档",
+      "caption": "原始记录与主观回忆，可以不同",
+      "captionFrame": 3982,
+      "captionMode": "type",
+      "sourceTime": 149.35533333333336
+    },
+    {
+      "id": "F02",
+      "fromFrame": 4050,
+      "toFrame": 4161,
+      "action": "最终结论",
+      "caption": "清晰，不等于真实",
+      "captionFrame": 4050,
+      "captionMode": "rise",
+      "sourceTime": 152.022
+    }
+  ],
+  "musicEdits": [
+    {
+      "videoStart": 0,
+      "sourceStart": 0,
+      "sourceEnd": 68.524
+    },
+    {
+      "videoStart": 68.524,
+      "sourceStart": 85.546,
+      "sourceEnd": 155.72199999999998,
+      "finalFadeSeconds": 0.8
+    }
+  ]
+}

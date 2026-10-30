@@ -1,0 +1,144 @@
+{
+  "video": "E:\\remotion\\理论视觉纪录片\\project6\\memory-film\\out\\记忆会撒谎-v5.mp4",
+  "duration": "138.709000",
+  "frames": "4161",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fullDecodePassed": true,
+  "audioPeakDbFS": -0.9987311363220215,
+  "clippedSamples": 0,
+  "captions": [
+    {
+      "id": "A01",
+      "fullyReadableSeconds": 2.333
+    },
+    {
+      "id": "A02",
+      "fullyReadableSeconds": 4.567
+    },
+    {
+      "id": "A03",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "A04",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "A05",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "A06",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "B01",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "B02",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "B03",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "B04",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "B05",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "B06",
+      "fullyReadableSeconds": 1.1
+    },
+    {
+      "id": "B07",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "C01",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "C02",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "C03",
+      "fullyReadableSeconds": 4.167
+    },
+    {
+      "id": "C04",
+      "fullyReadableSeconds": 4.567
+    },
+    {
+      "id": "C04b",
+      "fullyReadableSeconds": 4.6
+    },
+    {
+      "id": "C05",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "C06",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "C07",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "D01",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "D02",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "D03",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "D04",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "E01",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "E02",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "E03",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "E04",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "E05",
+      "fullyReadableSeconds": 1.4
+    },
+    {
+      "id": "F01",
+      "fullyReadableSeconds": 1.233
+    },
+    {
+      "id": "F02",
+      "fullyReadableSeconds": 3.367
+    }
+  ],
+  "shotSamples": 32,
+  "subjectiveListeningVerified": false
+}

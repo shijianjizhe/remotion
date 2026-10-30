@@ -1,0 +1,219 @@
+[
+  {
+    "text": "看过的词，你能认出来吗？",
+    "startMs": 400,
+    "endMs": 3633,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "你记住了哪些词？",
+    "startMs": 4033,
+    "endMs": 8933,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "有一个词，从未出现",
+    "startMs": 10400,
+    "endMs": 12133,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "睡眠：未呈现",
+    "startMs": 15567,
+    "endMs": 17467,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "联想，也可能制造回忆",
+    "startMs": 21033,
+    "endMs": 22767,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "我们可能记起不存在的信息",
+    "startMs": 24233,
+    "endMs": 25967,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "原片里，没有碎玻璃",
+    "startMs": 28133,
+    "endMs": 30233,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "150名学生，三组各50人",
+    "startMs": 31667,
+    "endMs": 33400,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "差别，在先前的提问",
+    "startMs": 37000,
+    "endMs": 38733,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "一周后，不再播放影片",
+    "startMs": 40833,
+    "endMs": 43000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "你看到碎玻璃了吗？",
+    "startMs": 44433,
+    "endMs": 46167,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "回答“看见了”的比例",
+    "startMs": 49000,
+    "endMs": 50433,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "原始记录，不等于后来报告",
+    "startMs": 52400,
+    "endMs": 54700,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "如果错记的，是一段童年？",
+    "startMs": 57733,
+    "endMs": 59467,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "这张照片，经过加工",
+    "startMs": 62533,
+    "endMs": 64267,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "第一次访谈：尝试回忆",
+    "startMs": 64667,
+    "endMs": 69600,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "第二次访谈：继续回忆",
+    "startMs": 70000,
+    "endMs": 74900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "第三次访谈：再次报告",
+    "startMs": 75300,
+    "endMs": 80233,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "这次热气球之旅，从未发生",
+    "startMs": 83233,
+    "endMs": 85533,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "完整或部分的虚假记忆报告",
+    "startMs": 89133,
+    "endMs": 90867,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "照片、引导想象、三次访谈",
+    "startMs": 93400,
+    "endMs": 95133,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "单项实验之外，如何归类？",
+    "startMs": 97067,
+    "endMs": 99367,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "用同一套标准，重新判断",
+    "startMs": 101900,
+    "endMs": 103633,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "30.4% 被归类为虚假记忆",
+    "startMs": 106167,
+    "endMs": 107900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "接受暗示，不等于同一种分类",
+    "startMs": 109767,
+    "endMs": 112133,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "这段记忆，来自哪里？",
+    "startMs": 113600,
+    "endMs": 115333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "来源判断，也可能出错",
+    "startMs": 117867,
+    "endMs": 119600,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "记住的，是自己如何得知消息",
+    "startMs": 121467,
+    "endMs": 123833,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "1、6或32周后，再次记录",
+    "startMs": 126367,
+    "endMs": 128100,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "确信感，不能独立证明准确",
+    "startMs": 130600,
+    "endMs": 132333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "原始记录与主观回忆，可以不同",
+    "startMs": 132733,
+    "endMs": 135000,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

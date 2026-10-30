@@ -1,0 +1,20 @@
+{
+  "sampleRate": 48000,
+  "sourceDuration": 192.84172916666665,
+  "duration": 138.7,
+  "peakDbFS": -1.0121999979019165,
+  "subjectiveListeningVerified": false,
+  "edits": [
+    {
+      "videoStart": 0,
+      "sourceStart": 0,
+      "sourceEnd": 68.524
+    },
+    {
+      "videoStart": 68.524,
+      "sourceStart": 85.546,
+      "sourceEnd": 155.72199999999998,
+      "finalFadeSeconds": 0.8
+    }
+  ]
+}
